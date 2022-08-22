@@ -1,0 +1,54 @@
+<div class="page-width">
+ <div class="grid">
+ <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+ 
+  {% if customer %}
+  <div class="section-header text-center">
+    <h1>{{ customer.first_name}}</h1>
+  </div>
+
+  <div class="rte">
+   {{page. content}}
+  </div>
+
+  {%else%}
+
+ <div class="section-header text-center">
+    <h1>{{ page.title}}</h1>
+  </div>
+
+  <div class="rte">
+  <h2> Membership exclusive content  <br><br> <a href="/account/login"> </h2>
+  </div>
+
+  {%endif%}
+
+
+{% assign username = "Vicky" %}
+{% if username and username.size > 10 %}
+  Wow, {{ username }} , you have a long name!
+{% else %}
+  Hello {{ username }}!
+{% endif %}
+
+{% assign item = [1,2,3,4,5,6] %}
+
+{% if array = [1,2,3,4,5,6] %}
+{% for item in array reversed %}
+  {{ item }}
+
+{% endfor %}
+{% endif %}
+
+{% form 'product', product %}
+  {{ form | payment_button }}
+  <form method="post" action="/cart/add" id="product_form_6786188247105" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" />
+  <div data-shopify="payment-button" data-has-selling-plan="true" data-has-fixed-selling-plan="false" class="shopify-payment-button"><button class="shopify-payment-button__button shopify-payment-button__button--unbranded shopify-payment-button__button--hidden" disabled="disabled" aria-hidden="true"> </button><button class="shopify-payment-button__more-options shopify-payment-button__button--hidden" disabled="disabled" aria-hidden="true"> </button></div>
+</form>
+{% endform %}
+
+ </div>
+</div>
+</div>
+
+
