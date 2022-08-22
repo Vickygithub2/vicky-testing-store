@@ -1,1 +1,0 @@
-# vicky-testing-store
