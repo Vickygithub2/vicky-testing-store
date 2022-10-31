@@ -18,11 +18,6 @@
   --gradient-background: rgb(var(--color-base-text));
 }
 
-.color-pink{
-  --color-background: #FFC0CB;
-  --gradient-background: #FFC0CB;
-}
-
 .color-accent-1 {
   --color-foreground: var(--color-base-solid-button-labels);
   --color-background: var(--color-base-accent-1);
@@ -2976,18 +2971,13 @@ details-disclosure > details {
   
 }
 
-#shopify-section-announcement-bar .colors-pink {
-  --color-background: #FFC0CB;
-}
-
-/*Newly installed font code start*/
-
 @font-face{
-  font-family:"Creattion.woff2";
-  src:url("Creattion.woff2") format("woff2"),
-    url("Creattion.woff") format("woff2");
+  font-family:"AutumninNovember";
+  src:url("AutumninNovember.woff") format("woff"),
+    url("AutumninNovember.woff") format("woff");
+
+}
+h1,h2,h3,h4,h5,h6,body,p,a {
+  font-family:"AutumninNovember"!important;
 }
 
-h1,h2,h3,h4,h5,h6,body,p,a {
-  font-family:"Creattion"!important;
-}
