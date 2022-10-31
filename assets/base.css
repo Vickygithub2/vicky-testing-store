@@ -2977,7 +2977,7 @@ details-disclosure > details {
     url("AutumninNovember.woff") format("woff");
 
 }
-.h1,.h2,.h3,.h4,.h5,.h6,body,p,a {
+h1,h2,h3,h4,h5,h6,body,p,a {
   font-family:"AutumninNovember"!important;
 }
 
