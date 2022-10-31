@@ -2972,10 +2972,12 @@ details-disclosure > details {
 }
 
 @font-face{
-  font-family:"CreattionDemo.woff2";
+  font-family:"CreattionDemo";
   src:url("CreattionDemo.woff2") format("woff2"),
     url("CreattionDemo.woff") format("woff");
 
 }
-h1,h2,h3,h4,h5,h6,body,p,a {font-family:"CreattionDemo.woff2"!important;}
+h1,h2,h3,h4,h5,h6,body,p,a {
+  font-family:"CreattionDemo"!important;
+}
 
