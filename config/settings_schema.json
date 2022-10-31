@@ -23,13 +23,6 @@
       },
       {
         "type": "color",
-        "id": "colors_pink",
-        "default": "#FFC0CB",
-        "label": "t:settings_schema.colors.settings.colors_pink.label",
-        "info": "t:settings_schema.colors.settings.colors_pink.info"
-      },
-      {
-        "type": "color",
         "id": "colors_accent_1",
         "default": "#121212",
         "label": "t:settings_schema.colors.settings.colors_accent_1.label",

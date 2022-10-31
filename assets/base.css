@@ -2980,11 +2980,14 @@ details-disclosure > details {
   --color-background: #FFC0CB;
 }
 
+/*Newly installed font code start*/
+
 @font-face{
-  font-family:"CreattionDemo";
-  src:url("CreattionDemo.woff2") format("woff2"),
-    url("CreattionDemo.woff") format("woff");
+  font-family:"Creattion.woff2";
+  src:url("Creattion.woff2") format("woff2"),
+    url("Creattion.woff") format("woff2");
 }
+
 h1,h2,h3,h4,h5,h6,body,p,a {
-  font-family:"CreattionDemo"!important;
+  font-family:"Creattion"!important;
 }
