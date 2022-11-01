@@ -2982,11 +2982,11 @@ details-disclosure > details {
 
 /*Newly installed font code start*/
 
-@font-face {
+/* @font-face { 
     font-family:"Dancing";
     src:url("{{'https://cdn.shopify.com/s/files/1/0655/4569/9563/files/Dancing.woff?v=1667299474'|asset_url}}") format("woff");
   }
   
   #Banner-template--16680068382955__image_banner > div.banner__content.banner__content--bottom-center.page-width > div > h2 > span{
     font-family:"Dancing"!important;
-  }
+  } */
