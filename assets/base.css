@@ -2692,6 +2692,9 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__submenu.list-menu {
   padding: 2.4rem 0;
+  display:flex;
+  float:right;
+  color:#ffffff;
 }
 
 .header__submenu .header__submenu {
