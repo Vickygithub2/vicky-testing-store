@@ -2980,3 +2980,13 @@ details-disclosure > details {
   --color-background: #FFC0CB;
 }
 
+/*Newly installed font code start*/
+
+@font-face {
+    font-family:"Creattion.woff2";
+    src:url("{{'Creattion.woff2'|asset_url}}") format("woff2");
+  }
+  
+  #Banner-template--16680068382955__image_banner > div.banner__content.banner__content--bottom-center.page-width > div > h2 > span{
+    font-family:"Creattion"!important;
+  }
