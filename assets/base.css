@@ -2,12 +2,12 @@
 /*Newly installed font code start*/
 
  @font-face { 
-    font-family:"DancingScript-VariableFont_wght";
-    src:url("DancingScript-VariableFont_wght") format("ttf");
+    font-family:"KolkerBrush-Regular";
+    src:url("KolkerBrush-Regular") format("ttf");
   }
   
 body, h1,h2,h3,h4,h5,h6{
-    font-family:"DancingScript-VariableFont_wght"!important;
+    font-family:"KolkerBrush-Regular"!important;
   } 
 
 :root,
