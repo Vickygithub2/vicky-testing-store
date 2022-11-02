@@ -2,12 +2,12 @@
 /*Newly installed font code start*/
 
  @font-face { 
-    font-family:"Dancing";
-    src:url("Dancing.woff") format("woff");
+    font-family:"DancingScript-VariableFont_wght";
+    src:url("DancingScript-VariableFont_wght") format("ttf");
   }
   
 body, h1,h2,h3,h4,h5,h6{
-    font-family:"Dancing"!important;
+    font-family:"DancingScript-VariableFont_wght"!important;
   } 
 
 :root,
