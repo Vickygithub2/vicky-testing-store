@@ -1,14 +1,11 @@
 /* Color custom properties */
 /*Newly installed font code start*/
-
+body, h1,h2,h3,h4,h5,h6{
  @font-face { 
    font-family: 'Kolker Brush', cursive;
     src:url("KolkerBrush-Regular.ttf") format("ttf");
   }
-  
-body, h1,h2,h3,h4,h5,h6{
-     font-family:"Kolker Brush"!important;
-  } 
+ } 
 
 :root,
   --color-foreground: var(--color-base-text);
