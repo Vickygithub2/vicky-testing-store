@@ -2,9 +2,8 @@
 /*Newly installed font code start*/
 
  @font-face { 
-   font-family: 'Inter', sans-serif;
    font-family: 'Kolker Brush', cursive;
-    src:url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Kolker+Brush&display=swap" rel="stylesheet") format("ttf");
+    src:url("KolkerBrush-Regular") format("ttf");
   }
   
 body, h1,h2,h3,h4,h5,h6{
