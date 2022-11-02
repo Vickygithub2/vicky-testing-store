@@ -2,12 +2,13 @@
 /*Newly installed font code start*/
 
  @font-face { 
-    font-style:"KolkerBrush-Regular";
+   font-family: 'Inter', sans-serif;
+   font-family: 'Kolker Brush', cursive;
     src:url("KolkerBrush-Regular") format("ttf");
   }
   
 body, h1,h2,h3,h4,h5,h6{
-     font-style:"KolkerBrush-Regular"!important;
+     font-family:"KolkerBrush-Regular"!important;
   } 
 
 :root,
