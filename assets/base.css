@@ -3,7 +3,7 @@
 
  @font-face { 
     font-family:"Dancing";
-    src:url("{{'https://cdn.shopify.com/s/files/1/0655/4569/9563/files/Dancing.woff?v=1667299474'|asset_url}}") format("woff");
+    src:url("Dancing.woff") format("woff");
   }
   
 body, h1,h2,h3,h4,h5,h6{
