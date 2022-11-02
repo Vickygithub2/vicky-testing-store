@@ -2,12 +2,12 @@
 /*Newly installed font code start*/
 
  @font-face { 
-    font-family:"KolkerBrush-Regular";
+    font-style:"KolkerBrush-Regular";
     src:url("KolkerBrush-Regular") format("ttf");
   }
   
 body, h1,h2,h3,h4,h5,h6{
-    font-family:"KolkerBrush-Regular"!important;
+     font-style:"KolkerBrush-Regular"!important;
   } 
 
 :root,
