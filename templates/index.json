@@ -48,6 +48,24 @@
         "show_text_below": false
       }
     },
+    "be54013c-3356-4ede-972d-985c03011e9d": {
+      "type": "icons-with-text",
+      "blocks": {
+        "8775b84e-a779-4687-b23e-f7b5c936c48a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/moon_f5b9ad7b-6035-4b1d-8eca-04f0b16b6b68.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "8775b84e-a779-4687-b23e-f7b5c936c48a"
+      ],
+      "settings": {
+        "heading": "",
+        "description": ""
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -213,6 +231,7 @@
   },
   "order": [
     "image_banner",
+    "be54013c-3356-4ede-972d-985c03011e9d",
     "rich_text",
     "featured_collection",
     "collage",
