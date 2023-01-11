@@ -15,16 +15,19 @@
         "type": "text",
         "label": "your headline for the section",
         "id": "heading"
-      }, {
+      },
+      {
         "type": "richtext",
         "label": "your description",
         "id": "description"
-      }, {
+      },
+      {
         "type": "checkbox",
         "label": "Show announcement",
         "id": "show_announcement",
         "default": true
-      }, {
+      },
+      {
         "type": "range",
         "id": "font_size",
         "min": 12,
@@ -33,6 +36,23 @@
         "unit": "px",
         "label": "Font size",
         "default": 16
+      }, {
+        "type": "select",
+        "id": "vertical_alignment",
+        "label": "Vertical alignment",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          }, {
+            "value": "middle",
+            "label": "Middle"
+          }, {
+            "value": "bottom",
+            "label": "Bottom"
+          }
+        ],
+        "default": "middle"
       }
     ],
     "blocks": [
