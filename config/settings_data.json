@@ -209,6 +209,30 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "icons-with-text": {
+        "type": "icons-with-text",
+        "blocks": {
+          "b526ec98-ed38-454a-8602-feea81a24b48": {
+            "type": "video",
+            "settings": {
+              "video_embed": "https:\/\/www.youtube.com\/watch?v=8mn_isfQ5FI"
+            }
+          }
+        },
+        "block_order": [
+          "b526ec98-ed38-454a-8602-feea81a24b48"
+        ],
+        "settings": {
+          "heading": "",
+          "description": "",
+          "show_announcement": true,
+          "font_size": 16,
+          "vertical_alignment": "middle",
+          "body_text": "#000000",
+          "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+          "video_embed": ""
+        }
       }
     },
     "content_for_index": [
