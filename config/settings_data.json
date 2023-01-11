@@ -209,19 +209,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "icons-with-text": {
-        "type": "icons-with-text",
-        "settings": {
-          "heading": "",
-          "description": "",
-          "show_announcement": true,
-          "font_size": 16,
-          "vertical_alignment": "middle",
-          "body_text": "#000000",
-          "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
-          "video_embed": "https:\/\/www.youtube.com\/watch?v=8mn_isfQ5FI"
-        }
       }
     },
     "content_for_index": [
