@@ -209,36 +209,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "icons-with-text": {
-        "type": "icons-with-text",
-        "blocks": {
-          "546a7e6c-f5f2-464b-8aa0-b32b25c46e6c": {
-            "type": "video",
-            "settings": {
-              "video_embed": "https:\/\/www.youtube.com\/watch?v=jzhsYMxUp8s"
-            }
-          },
-          "468acf45-4b50-484d-b3ed-d08bd62d4a61": {
-            "type": "image",
-            "settings": {
-            }
-          }
-        },
-        "block_order": [
-          "546a7e6c-f5f2-464b-8aa0-b32b25c46e6c",
-          "468acf45-4b50-484d-b3ed-d08bd62d4a61"
-        ],
-        "settings": {
-          "heading": "",
-          "description": "",
-          "show_announcement": true,
-          "font_size": 16,
-          "vertical_alignment": "middle",
-          "body_text": "#000000",
-          "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
-          "video_embed": ""
-        }
       }
     },
     "content_for_index": [
