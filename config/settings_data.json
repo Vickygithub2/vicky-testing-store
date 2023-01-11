@@ -218,10 +218,17 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/moon_f5b9ad7b-6035-4b1d-8eca-04f0b16b6b68.jpg"
             }
+          },
+          "0bb66ce8-3826-46bf-8bcd-e2cd23752f8a": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/moon.jpg"
+            }
           }
         },
         "block_order": [
-          "0f9c4185-737a-4def-a9d0-1b538556166d"
+          "0f9c4185-737a-4def-a9d0-1b538556166d",
+          "0bb66ce8-3826-46bf-8bcd-e2cd23752f8a"
         ],
         "settings": {
           "heading": "",
