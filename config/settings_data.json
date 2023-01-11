@@ -209,6 +209,13 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "icons-with-text": {
+        "type": "icons-with-text",
+        "settings": {
+          "heading": "Hello",
+          "description": "<p>hello page 1<\/p>"
+        }
       }
     },
     "content_for_index": [
