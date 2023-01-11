@@ -209,6 +209,30 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "icons-with-text": {
+        "type": "icons-with-text",
+        "blocks": {
+          "06b734f7-ef4d-4ea3-87d9-03ec3141291d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/moon_f5b9ad7b-6035-4b1d-8eca-04f0b16b6b68.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "06b734f7-ef4d-4ea3-87d9-03ec3141291d"
+        ],
+        "settings": {
+          "heading": "",
+          "description": "",
+          "show_announcement": true,
+          "font_size": 16,
+          "vertical_alignment": "middle",
+          "body_text": "#000000",
+          "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
+          "video_embed": ""
+        }
       }
     },
     "content_for_index": [
