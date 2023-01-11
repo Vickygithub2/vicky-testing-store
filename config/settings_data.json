@@ -209,13 +209,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "icons-with-text": {
-        "type": "icons-with-text",
-        "settings": {
-          "heading": "THIS IS A HEADING",
-          "description": "<p>Hello THIS IS A RICHTEXT<\/p>"
-        }
       }
     },
     "content_for_index": [
