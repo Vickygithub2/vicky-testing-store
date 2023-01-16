@@ -1,0 +1,35 @@
+<h3>{{ section.settings.tab1 }}</h3>
+<p>{{ section.settings.tab-content }}</p>
+<div></div>
+
+
+
+{% schema %}
+  {
+    "name": "faq",
+    "settings": [
+      {
+        "type": "text",
+        "label": "Questions",
+        "id": "tab1"
+      }, {
+        "type": "richtext",
+        "label": "Answers",
+        "id": "tab-content"
+      }, {
+        "type": "checkbox",
+        "label": "Show faq",
+        "id": "tab-toggle",
+        "default": true
+      }
+
+    ],
+
+    "presets": [
+      {
+        "category": "text",
+        "name": "faq"
+      }
+    ]
+  }
+{% endschema %}
