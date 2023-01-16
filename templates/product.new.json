@@ -3,8 +3,6 @@
     "main": {
       "type": "main-test-product",
       "settings": {
-        "tax_notice": "Tax included",
-        "show_reviews": true
       }
     }
   },
