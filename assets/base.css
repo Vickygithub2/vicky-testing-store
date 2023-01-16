@@ -2991,6 +2991,7 @@ details-disclosure > details {
 {
   border-radius: 8px;
   overflow: hidden;
+  margin-bottom: 15px;
 }
 
 .faq .tab-toggle
