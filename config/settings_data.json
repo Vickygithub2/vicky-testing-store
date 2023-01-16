@@ -209,37 +209,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "icons-with-text": {
-        "type": "icons-with-text",
-        "blocks": {
-          "06b734f7-ef4d-4ea3-87d9-03ec3141291d": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/moon_f5b9ad7b-6035-4b1d-8eca-04f0b16b6b68.jpg"
-            }
-          },
-          "b35cf1e2-7d92-4fd6-9127-80deb74b69f4": {
-            "type": "video",
-            "settings": {
-              "video_embed": "https:\/\/www.youtube.com\/watch?v=8mn_isfQ5FI"
-            }
-          }
-        },
-        "block_order": [
-          "06b734f7-ef4d-4ea3-87d9-03ec3141291d",
-          "b35cf1e2-7d92-4fd6-9127-80deb74b69f4"
-        ],
-        "settings": {
-          "heading": "",
-          "description": "",
-          "show_announcement": true,
-          "font_size": 16,
-          "vertical_alignment": "middle",
-          "body_text": "#000000",
-          "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
-          "video_embed": ""
-        }
       }
     },
     "content_for_index": [
