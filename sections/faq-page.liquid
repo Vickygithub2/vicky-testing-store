@@ -1,20 +1,12 @@
-<div class="page-width">
-  <div class="grid">
-    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
-
-
-      <div class="faq">
-        <div class="tab">
-          <input
-            type="checkbox"
-            id="tab1"
-            class="tab-toggle">
-          <label for="tab1" class="tab-label">{{ section.settings.tab1 }}</label>
-          <div class="tab-content">
-            {{ section.settings.tab-content }}
-          </div>
-        </div>
-      </div>
+<div class="faq">
+  <div class="tab">
+    <input
+      type="checkbox"
+      id="tab1"
+      class="tab-toggle">
+    <label for="tab1" class="tab-label">{{ section.settings.tab1 }}</label>
+    <div class="tab-content">
+      {{ section.settings.tab-content }}
     </div>
   </div>
 </div>
@@ -38,13 +30,17 @@
         "id": "tab-toggle",
         "default": true
       }
-
     ],
 
     "presets": [
       {
         "category": "text",
-        "name": "faq"
+        "name": "questions"
+
+      }, {
+        "category": "richtext",
+        "name": "answers"
+
       }
     ]
   }
