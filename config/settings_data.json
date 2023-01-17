@@ -224,8 +224,8 @@
           "96b5843b-1e25-46cb-a865-92a6804339e6": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
+              "question": "how to order?",
+              "answer": "<p>yes<\/p>",
               "tab-toggle": true
             }
           },
