@@ -7,9 +7,24 @@
     <label for="tab1" class="tab-label">{{ section.settings.tab1 }}</label>
 
 
-    <div class="tab-content">
-      {{ section.settings.tab-content }}
-    </div>
+    {% if section.settings.tab1 == empty %}
+      <input
+        type="checkbox"
+        name="{{section.settings.tab1}}"
+        style="display:none;">
+    {% else %}
+      <input
+        type="checkbox"
+        id="tab1"
+        class="tab-toggle">
+      <label for="tab1" class="tab-label">{{ section.settings.tab1 }}</label>
+
+      <div class="tab-content">
+        {{ section.settings.tab-content }}
+      </div>
+
+    {% endif %}
+
   </div>
 </div>
 
