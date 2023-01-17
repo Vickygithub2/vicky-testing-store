@@ -2991,6 +2991,9 @@ details-disclosure > details {
 {
   border-radius: 8px;
   overflow: hidden;
+}
+
+.tab{
   margin-bottom: 15px;
 }
 
@@ -3006,6 +3009,7 @@ details-disclosure > details {
   padding: 1em;
   font-weight: bold;
   color:#ffffff
+  border: 1px solid #ffffff;
 }
 
 .faq .tab-label::after
@@ -3023,6 +3027,7 @@ details-disclosure > details {
   overflow: hidden;
   transition: all .4s;
   padding: 0 1em;
+  border-radius: 8px;
 }
 
 .faq .tab-toggle:checked ~ .tab-content
