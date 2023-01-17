@@ -209,6 +209,60 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "faq-page": {
+        "type": "faq-page",
+        "blocks": {
+          "2cea0f00-3466-4fb2-9598-fdd7baaa289b": {
+            "type": "text",
+            "settings": {
+              "question": "how to refund",
+              "answer": "<p>yes<\/p>",
+              "tab-toggle": true
+            }
+          },
+          "96b5843b-1e25-46cb-a865-92a6804339e6": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "tab-toggle": true
+            }
+          },
+          "4bb790c8-313b-4d84-a88b-728bdef2a48c": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "tab-toggle": true
+            }
+          },
+          "cf972d22-0713-42ef-a81c-e07ac480d5c3": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "tab-toggle": true
+            }
+          },
+          "c6c431af-7803-4420-86dc-e178b48e4cc2": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "tab-toggle": true
+            }
+          }
+        },
+        "block_order": [
+          "2cea0f00-3466-4fb2-9598-fdd7baaa289b",
+          "96b5843b-1e25-46cb-a865-92a6804339e6",
+          "4bb790c8-313b-4d84-a88b-728bdef2a48c",
+          "cf972d22-0713-42ef-a81c-e07ac480d5c3",
+          "c6c431af-7803-4420-86dc-e178b48e4cc2"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
