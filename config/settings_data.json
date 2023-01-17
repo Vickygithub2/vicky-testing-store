@@ -209,6 +209,33 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "faq-page": {
+        "type": "faq-page",
+        "blocks": {
+          "ae5e7ec8-5d5f-479d-a6c3-fffab1f7d958": {
+            "type": "text",
+            "settings": {
+              "question": "How long does delivery take?",
+              "answer": "<p>1-2 working days<\/p>",
+              "tab-toggle": true
+            }
+          },
+          "76f27486-54e8-4170-b438-42a48b090b7c": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "tab-toggle": true
+            }
+          }
+        },
+        "block_order": [
+          "ae5e7ec8-5d5f-479d-a6c3-fffab1f7d958",
+          "76f27486-54e8-4170-b438-42a48b090b7c"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
