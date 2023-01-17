@@ -209,24 +209,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "faq-page": {
-        "type": "faq-page",
-        "blocks": {
-          "6cab32e0-010e-450a-95fe-aaea66bc9517": {
-            "type": "text",
-            "settings": {
-              "question": "How long does delivery take?",
-              "answer": "<p>It takes 1-2 working days.<\/p>",
-              "tab-toggle": true
-            }
-          }
-        },
-        "block_order": [
-          "6cab32e0-010e-450a-95fe-aaea66bc9517"
-        ],
-        "settings": {
-        }
       }
     },
     "content_for_index": [
