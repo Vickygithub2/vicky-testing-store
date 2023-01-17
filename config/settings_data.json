@@ -220,10 +220,19 @@
               "answer": "<p>How to refund<\/p>",
               "tab-toggle": true
             }
+          },
+          "bbf05019-1cf2-4251-8af1-132dbf11e6bb": {
+            "type": "text",
+            "settings": {
+              "question": "How to refund",
+              "answer": "<p>How to refund<\/p>",
+              "tab-toggle": true
+            }
           }
         },
         "block_order": [
-          "b1cb3864-8c30-4051-92ec-c020add685da"
+          "b1cb3864-8c30-4051-92ec-c020add685da",
+          "bbf05019-1cf2-4251-8af1-132dbf11e6bb"
         ],
         "settings": {
         }
