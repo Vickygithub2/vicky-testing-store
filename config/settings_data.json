@@ -232,8 +232,8 @@
           "4bb790c8-313b-4d84-a88b-728bdef2a48c": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
+              "question": "how to return?",
+              "answer": "<p>yes<\/p>",
               "tab-toggle": true
             }
           },
