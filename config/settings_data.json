@@ -209,14 +209,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "faq-page": {
-        "type": "faq-page",
-        "settings": {
-          "tab1": "How to pay?",
-          "tab-content": "<p>hjhk<\/p>",
-          "tab-toggle": true
-        }
       }
     },
     "content_for_index": [

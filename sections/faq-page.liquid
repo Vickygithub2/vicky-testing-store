@@ -5,6 +5,8 @@
       id="tab1"
       class="tab-toggle">
     <label for="tab1" class="tab-label">{{ section.settings.tab1 }}</label>
+
+
     <div class="tab-content">
       {{ section.settings.tab-content }}
     </div>
@@ -31,16 +33,16 @@
         "default": true
       }
     ],
-
     "presets": [
       {
         "category": "text",
         "name": "questions"
-
       }, {
         "category": "richtext",
         "name": "answers"
-
+      }, {
+        "category": "checkbox",
+        "name": "showfaq"
       }
     ]
   }
