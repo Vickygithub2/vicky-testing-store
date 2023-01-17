@@ -224,8 +224,8 @@
           "76f27486-54e8-4170-b438-42a48b090b7c": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
+              "question": "Can I return?",
+              "answer": "<p>Yes you can<\/p>",
               "tab-toggle": true
             }
           }
