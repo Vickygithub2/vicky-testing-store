@@ -209,6 +209,33 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "faq-page": {
+        "type": "faq-page",
+        "blocks": {
+          "1f043e6c-1ed3-47c1-8bb3-7917cce113e1": {
+            "type": "text",
+            "settings": {
+              "question": "How to refund",
+              "answer": "<p>How to refund<\/p>",
+              "tab-toggle": true
+            }
+          },
+          "d8998d92-6706-437f-a441-0a3ab51e4690": {
+            "type": "text",
+            "settings": {
+              "question": "How to refund",
+              "answer": "<p>How to refund<\/p>",
+              "tab-toggle": true
+            }
+          }
+        },
+        "block_order": [
+          "1f043e6c-1ed3-47c1-8bb3-7917cce113e1",
+          "d8998d92-6706-437f-a441-0a3ab51e4690"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
