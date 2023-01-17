@@ -1,59 +1,47 @@
 <div class="faq">
-  <div class="tab">
-    <input
-      type="checkbox"
-      id="tab1"
-      class="tab-toggle">
-    <label for="tab1" class="tab-label">{{ section.settings.tab1 }}</label>
-
-
-    {% if section.settings.tab1 == empty %}
+  {% for block in section.blocks %}
+    <div class="tab">
       <input
         type="checkbox"
-        name="{{section.settings.tab1}}"
-        style="display:none;">
-    {% else %}
+        id="tab{{forloop.index}}"
+        class="tab-toggle">
+      <label for="tab{{forloop.index}}" class="tab-label">{{ block.settings.question }}</label>
 
-      <div class="tab-content" style="max-height: 100vh;">
-        {{ section.settings.tab-content }}
-      </div>
+      <div class="tab-content">{{ block.settings.answer }}</div>
+    </div>
+  {% endfor %}
 
-    {% endif %}
-
-  </div>
 </div>
+
 
 
 {% schema %}
   {
     "name": "faq",
-    "settings": [
+    "settings": [],
+    "blocks": [
       {
         "type": "text",
-        "label": "Questions",
-        "id": "tab1"
-      }, {
-        "type": "richtext",
-        "label": "Answers",
-        "id": "tab-content"
-      }, {
-        "type": "checkbox",
-        "label": "Show faq",
-        "id": "tab-toggle",
-        "default": true
+        "name": "Questions",
+        "settings": [
+          {
+            "type": "text",
+            "label": "Questions",
+            "id": "question"
+          }, {
+            "type": "richtext",
+            "label": "Answers",
+            "id": "answer"
+          }, {
+            "type": "checkbox",
+            "label": "Show faq",
+            "id": "tab-toggle",
+            "default": true
+          }
+        ]
       }
-    ],
-    "presets": [
-      {
-        "category": "text",
-        "name": "questions"
-      }, {
-        "category": "richtext",
-        "name": "answers"
-      }, {
-        "category": "checkbox",
-        "name": "showfaq"
-      }
+
     ]
+
   }
 {% endschema %}
