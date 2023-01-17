@@ -209,6 +209,24 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "faq-page": {
+        "type": "faq-page",
+        "blocks": {
+          "b1cb3864-8c30-4051-92ec-c020add685da": {
+            "type": "text",
+            "settings": {
+              "question": "How to refund",
+              "answer": "<p>How to refund<\/p>",
+              "tab-toggle": true
+            }
+          }
+        },
+        "block_order": [
+          "b1cb3864-8c30-4051-92ec-c020add685da"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
