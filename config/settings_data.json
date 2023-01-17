@@ -248,8 +248,8 @@
           "c6c431af-7803-4420-86dc-e178b48e4cc2": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
+              "question": "Contact Info",
+              "answer": "<p>00000000<\/p>",
               "tab-toggle": true
             }
           }
