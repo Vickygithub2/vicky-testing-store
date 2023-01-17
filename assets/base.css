@@ -3008,8 +3008,8 @@ details-disclosure > details {
   justify-content: space-between;
   padding: 1em;
   font-weight: bold;
-  color:#ffffff
-  border: 1px solid #ffffff;
+  color:#ffffff;
+  border-radius:8px;
 }
 
 .faq .tab-label::after
