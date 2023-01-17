@@ -240,8 +240,8 @@
           "cf972d22-0713-42ef-a81c-e07ac480d5c3": {
             "type": "text",
             "settings": {
-              "question": "",
-              "answer": "",
+              "question": "how long does delivery take?",
+              "answer": "<p>1-2 days<\/p>",
               "tab-toggle": true
             }
           },
