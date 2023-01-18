@@ -54,8 +54,9 @@ block: block
       form="{{ product_form_id }}"
       {% if option.selected_value == value %}checked{% endif %}
       {% if option_disabled %}class="disabled"{% endif %}>
-    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      I am {{ value }}{% if option_disabled %}
+
+    <label style="background-image: url({{ value| append: '.png'| file_url }});" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+      {{ value }}{% if option_disabled %}
         <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
       {% endif %}
     </label>
