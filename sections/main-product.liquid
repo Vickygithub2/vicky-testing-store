@@ -196,7 +196,7 @@
                 </button>
               </modal-opener>
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">
-               I am {{- block.settings.text -}}
+                {{- block.settings.text -}}
               </a>
             {%- when 'share' -%}
               <share-button
@@ -275,7 +275,7 @@
                     {%- for option in product.options_with_values -%}
                       <div class="product-form__input product-form__input--dropdown">
                         <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-                          I am {{ option.name }}
+                           I am {{ option.name }}
                         </label>
                         <div class="select">
                           <select
@@ -322,7 +322,7 @@
                           {% if variant.available == false %}
                             disabled
                           {% endif %}
-                          value="{{ variant.id }}"
+                           value=" {{ variant.id }}"
                         >
                           {{ variant.title }}
                           {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
