@@ -57,16 +57,10 @@ block: block
 
 
     {% if option.name == 'color' %}
-      <label style="background-image: url({{ value | append: '.png'| file_url }});" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-        {% if option_disabled %}
-          <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
-        {% endif %}
-      </label>
+      <label style="background-image: url({{ value | append: '.png'| file_url }});" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"></label>
     {% else %}
       <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-        {{ value }}{% if option_disabled %}
-          <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
-        {% endif %}
+        {{ value }}
       </label>
     {% endif %}
 
