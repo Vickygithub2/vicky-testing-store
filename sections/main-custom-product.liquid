@@ -341,6 +341,7 @@
                 <label class="form__label" for="custom-name">Your Name</label>
                 <input class="field__input" required type="text" id="custom-name" form="{{product_form_id}}" name="properties[Your Name]"/>
                 </div>
+
                 <div class="select product-form__input">
                 <label class="form__label" for="custom-coating">Coating</label>
                 <select class="select__select" id="custom-coating" form="{{product_form_id}}" name="properties[Coating]">
@@ -348,10 +349,12 @@
                     <option value="Mosaic">Mosaic</option>
                 </select>
                 </div>
+
                 <div class="field">
                 <label class="form__label" for="custom-gift">Wrap as a gift?</label>
                 <input class= "field__input" type="checkbox" value="Yes" id="custom-gift" form="{{product_form_id}}" name="properties[Wrap as gift]"/>
                 </div>
+                
                 <div>
                 <label class="form__label" for="custom-file">Photo</label>
                 <input type="file" id="custom-file" form="{{product_form_id}}" name="properties[Your Photo]"/>
