@@ -213,10 +213,10 @@
   },
   "order": [
     "image_banner",
+    "video",
     "rich_text",
     "featured_collection",
     "collage",
-    "video",
     "multicolumn"
   ]
 }

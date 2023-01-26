@@ -209,37 +209,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "icons-with-text": {
-        "type": "icons-with-text",
-        "settings": {
-          "heading": "",
-          "description": "",
-          "show_announcement": true,
-          "font_size": 16,
-          "vertical_alignment": "middle",
-          "body_text": "#000000",
-          "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
-          "video_embed": "https:\/\/www.youtube.com\/watch?v=W9yCnwLfqcY"
-        }
-      },
-      "faq-page": {
-        "type": "faq-page",
-        "blocks": {
-          "337afaf2-b7e9-4569-a79b-2c412f9e7668": {
-            "type": "text",
-            "settings": {
-              "question": "",
-              "answer": "",
-              "tab-toggle": true
-            }
-          }
-        },
-        "block_order": [
-          "337afaf2-b7e9-4569-a79b-2c412f9e7668"
-        ],
-        "settings": {
-        }
       }
     },
     "content_for_index": [
