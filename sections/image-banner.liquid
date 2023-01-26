@@ -84,6 +84,13 @@
        alt: section.settings.image_2.alt | escape }}
     </div>
   {%- endif -%}
+
+
+  Test 
+  {% if block.settings.image_link != blank %}
+    
+  {% endif %}
+
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
       {%- for block in section.blocks -%}
@@ -106,6 +113,8 @@
             {%- endif -%}
 
           </div>
+          </a>
+
 
           <template>
             {%- if section.settings.video_url.type == 'youtube' -%}
@@ -147,6 +156,15 @@
         "id": "image_2",
         "label": "t:sections.image-banner.settings.image_2.label"
       },
+
+
+      {
+"type": "url",
+"id":"image_link",
+"label": "Image Link"
+
+      },
+    
       {
         "type": "range",
         "id": "image_overlay_opacity",
