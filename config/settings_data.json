@@ -209,30 +209,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "icons-with-text": {
-        "type": "icons-with-text",
-        "blocks": {
-          "92c9725b-ca39-4691-bf9f-f01fe6e5b2ca": {
-            "type": "video",
-            "settings": {
-              "video_embed": "https:\/\/www.youtube.com\/watch?v=W9yCnwLfqcY"
-            }
-          }
-        },
-        "block_order": [
-          "92c9725b-ca39-4691-bf9f-f01fe6e5b2ca"
-        ],
-        "settings": {
-          "heading": "",
-          "description": "",
-          "show_announcement": true,
-          "font_size": 16,
-          "vertical_alignment": "middle",
-          "body_text": "#000000",
-          "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)",
-          "video_embed": "https:\/\/www.youtube.com\/watch?v=W9yCnwLfqcY"
-        }
       }
     },
     "content_for_index": [

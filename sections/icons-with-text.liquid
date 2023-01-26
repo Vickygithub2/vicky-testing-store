@@ -8,7 +8,7 @@
   {% endfor %}
 
   <template>
-    {%- if section.settings.video_embed.type == 'youtube' -%}
+    {%- if section.settings.video.type == 'youtube' -%}
       <iframe
         src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1"
         class="js-youtube"
@@ -114,7 +114,7 @@
         "settings": [
           {
             "type": "html",
-            "id": "video_embed",
+            "id": "video",
             "label": "Video embed"
           }
         ]
