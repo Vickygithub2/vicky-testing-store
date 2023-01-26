@@ -11,28 +11,26 @@
       <div class="videoBox" style="{%- if block.settings.video_link == blank -%}background-image: url('{{ block.settings.video_image  | img_url: 'master' }}');{%- endif -%}">
 
 
-
-        {%- if block.settings.video_link != blank -%}
-
+        {%- if block.settings.video_link.type == 'youtube' -%}
           <div class="fullscreen-video-wrap">
-
             <video
+              src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1"
               class="video-js"
-              loop
-              autoplay
-              preload="none"
-              muted
-              playsinline
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              title="{{ section.settings.description | escape }}"></video>
 
-              poster="https:{{ block.settings.video_image | img_url: 'master' }}">
+          {% else %}
+            <video
+              src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}"
+              class="js-video"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              title="{{ section.settings.description | escape }}"></video>
 
-              <source src="{{ block.settings.video_link }}" type="video/mp4">
+          {% endif %}
 
-            </video>
-
-          </div>
-
-        {% endif %}
+        </div>
 
 
 
