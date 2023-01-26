@@ -212,6 +212,17 @@
       },
       "icons-with-text": {
         "type": "icons-with-text",
+        "blocks": {
+          "92c9725b-ca39-4691-bf9f-f01fe6e5b2ca": {
+            "type": "video",
+            "settings": {
+              "video_embed": "https:\/\/www.youtube.com\/watch?v=W9yCnwLfqcY"
+            }
+          }
+        },
+        "block_order": [
+          "92c9725b-ca39-4691-bf9f-f01fe6e5b2ca"
+        ],
         "settings": {
           "heading": "",
           "description": "",
