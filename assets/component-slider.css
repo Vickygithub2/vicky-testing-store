@@ -350,14 +350,13 @@ slider-component.slider-component-full-width {
 .slider-button {
   color: rgba(var(--color-foreground), 0.75);
   background: transparent;
-  border: solid white 1px;
+  border: none;
   cursor: pointer;
   width: 44px;
   height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
 }
 
 .slider-button:not([disabled]):hover {
