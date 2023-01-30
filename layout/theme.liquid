@@ -437,9 +437,7 @@
       {{ "accessibility.skip_to_text" | t }}
     </a>
 
-    {% if template.name == 'collection' or page.handle == 'search-results-page' %}
-      {% render 'loader' %}
-    {% endif %}
+
 
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
@@ -455,6 +453,10 @@
       {{ content_for_layout }}
     </main>
 
+    {% if template.name == 'collection' or page.handle == 'search-results-page' %}
+      {% render 'loader' %}
+
+    {% endif %}
     {% section 'footer' %}
 
     <ul hidden>
