@@ -496,8 +496,7 @@
 
     {% include 'custom-fonts' %}
 
-
-    {% if template.name == 'collection' or page.handle == 'search-results-page' %}
+    {% if page.handle == 'search-results-page' %}
       {% render 'loader' %}
     {% endif %}
   </body>
