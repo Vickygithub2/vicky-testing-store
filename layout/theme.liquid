@@ -432,6 +432,9 @@
   </head>
 
   <body class="gradient">
+    {% if template.name == 'collection' or page.handle == 'search-results-page' %}
+      {% render 'loader' %}
+    {% endif %}
 
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
@@ -494,12 +497,7 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-
     {% include 'custom-fonts' %}
-
-    {% if template.name == 'collection' or page.handle == 'search-results-page' %}
-      {% render 'loader' %}
-    {% endif %}
-
   </body>
+
 </html>
