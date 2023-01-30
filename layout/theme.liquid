@@ -453,10 +453,7 @@
       {{ content_for_layout }}
     </main>
 
-    {% if template.name == 'collection' or page.handle == 'search-results-page' %}
-      {% render 'loader' %}
 
-    {% endif %}
     {% section 'footer' %}
 
     <ul hidden>
@@ -500,6 +497,9 @@
     {% include 'custom-fonts' %}
 
 
+    {% if template.name == 'collection' or page.handle == 'search-results-page' %}
+      {% render 'loader' %}
 
+    {% endif %}
   </body>
 </html>
