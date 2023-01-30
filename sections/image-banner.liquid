@@ -29,7 +29,6 @@
   }
 {%- endstyle -%}
 
-Test
 {% if block.settings.image_link != blank %}
   <a href="{{block.settings.image_link}}">
   {% endif %}
@@ -102,7 +101,7 @@ Test
           {%- case block.type -%}
             {%- when 'heading' -%}
             <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.heading | escape }}</span>
+              <span>{{ block.settings.heading | escape | capitalize }}</span>
             </h2>
             {%- when 'text' -%}
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
