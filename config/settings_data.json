@@ -142,8 +142,11 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/moon.jpg",
           "logo_width": 90,
           "logo_position": "middle-left",
+          "logo_mobile_width": 100,
+          "logo_mobile_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
