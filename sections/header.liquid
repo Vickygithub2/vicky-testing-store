@@ -402,11 +402,11 @@
             {%- if section.settings.logo_mobile != blank -%}
               {%- assign logo_alt = section.settings.logo_mobile.alt | default: shop.name | escape -%}
               {%- assign logo_height = section.settings.logo_mobile_width | divided_by: section.settings.logo_mobile.aspect_ratio -%}
-              {{ section.settings.logo | image_url: width: section.settings.width | image_tag:
+              {{ section.settings.logo_mobile | image_url: width: section.settings.width | image_tag:
               class: 'header__heading-logo',
               widths: '50, 100, 150, 200, 250, 300, 400, 500',
-              height: logo_height,
-              width: section.settings.logo_width,
+              height: logo__mobile_height,
+              width: section.settings.logo_mobile_width,
               alt: logo_alt
             }}
             {%- else -%}
@@ -853,20 +853,12 @@
       "step": 10,
       "default": 100,
       "unit": "t:sections.header.settings.logo_width.unit",
-      "label": "t:sections.header.settings.logo_width.label"
+      "label": "Mobile Logo Width"
     },
     {
       "type": "select",
       "id": "logo_mobile_position",
       "options": [
-        {
-          "value": "top-left",
-          "label": "t:sections.header.settings.logo_position.options__2.label"
-        },
-        {
-          "value": "top-center",
-          "label": "t:sections.header.settings.logo_position.options__3.label"
-        },
         {
           "value": "middle-left",
           "label": "t:sections.header.settings.logo_position.options__1.label"

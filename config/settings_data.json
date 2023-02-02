@@ -142,11 +142,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Diptyque_logo_logotype.png",
-          "logo_width": 150,
-          "logo_position": "middle-center",
-          "logo_mobile_width": 120,
-          "logo_mobile_position": "middle-left",
+          "logo_width": 90,
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
