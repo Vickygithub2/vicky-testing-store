@@ -369,7 +369,7 @@
       </details-modal>
     {%- endif -%}
 
-    {%- if section.settings.logo_position != 'middle-center' -%}
+    {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
       {%- endif -%}
@@ -848,10 +848,6 @@
       "type": "select",
       "id": "logo_mobile_position",
       "options": [
-        {
-          "value": "middle-left",
-          "label": "t:sections.header.settings.logo_position.options__1.label"
-        },
         {
           "value": "middle-center",
           "label": "t:sections.header.settings.logo_position.options__4.label"
