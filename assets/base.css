@@ -3048,13 +3048,12 @@ padding: 1em;
   background-color: #FFC0CB;
 }
 
-/*.hidden_desktop{
-  display:block;
-}
+
 
 .hidden_mobile {
   display: none;
-}*/
+}
+
 @media (min-width:992px){
   .hidden_desktop{
     display:none;
