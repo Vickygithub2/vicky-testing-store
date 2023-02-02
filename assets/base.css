@@ -3048,6 +3048,7 @@ padding: 1em;
   background-color: #FFC0CB;
 }
 
+/*How to create mobile and desktop logo images*/
 
 /* if the screen size is mobile, hide the desktop logo image*/
 .hidden_desktop {
