@@ -3049,16 +3049,20 @@ padding: 1em;
 }
 
 
-
-.hidden_mobile {
+/* if the screen size is mobile*/
+.hidden_desktop {
   display: none;
 }
+.hidden_mobile{
+  display: block;
+}
 
+/*if it is desktop*/
 @media (min-width:992px){
-  .hidden_desktop{
+  .hidden_mobile{
     display:none;
   }
-  .hidden_mobile {
+  .hidden_desktop {
     display: block;
   }
 }
