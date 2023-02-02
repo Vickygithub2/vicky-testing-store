@@ -3049,7 +3049,7 @@ padding: 1em;
 }
 
 
-/* if the screen size is mobile*/
+/* if the screen size is mobile, hide the desktop logo image*/
 .hidden_desktop {
   display: none;
 }
@@ -3057,7 +3057,7 @@ padding: 1em;
   display: block;
 }
 
-/*if it is desktop*/
+/*if it is desktop screen size, hide the mobile desktop image*/
 @media (min-width:992px){
   .hidden_mobile{
     display:none;
