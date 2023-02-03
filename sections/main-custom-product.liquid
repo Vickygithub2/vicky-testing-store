@@ -553,6 +553,11 @@
                       {%- if block.settings.make_collapsible_row -%}
                         {% render 'icon-caret' %}
                       </summary>
+
+                      test
+
+
+
                     {%- endif -%}
                     <slideshow-component class="slider-mobile-gutter">
                       {%- assign number_of_slides = recommendations.products_count | plus: 0.0 | divided_by: block.settings.products_per_page | ceil -%}
@@ -813,13 +818,13 @@
 
 
 
-    const hiddenInput = document.querySelector('#    {{ product_form_id }} input[name="id"]');
+    const hiddenInput = document.querySelector('#     {{ product_form_id }} input[name="id"]');
     const noScriptInputWrapper = document.createElement('div');
-    const variantSwitcher = document.querySelector('variant-radios[data-section="    {{ section.id }} "]') || document.querySelector('variant-selects[data-section="    {{ section.id }} "]');
-    noScriptInputWrapper.innerHTML = document.querySelector('.product-form__noscript-wrapper-    {{ section.id }}').textContent;
+    const variantSwitcher = document.querySelector('variant-radios[data-section="     {{ section.id }} "]') || document.querySelector('variant-selects[data-section="     {{ section.id }} "]');
+    noScriptInputWrapper.innerHTML = document.querySelector('.product-form__noscript-wrapper-     {{ section.id }}').textContent;
     variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
 
-    document.querySelector('#Variants-    {{ section.id }}').addEventListener('change', function(event) {
+    document.querySelector('#Variants-     {{ section.id }}').addEventListener('change', function(event) {
       hiddenInput.value = event.currentTarget.value;
     });
   });
@@ -836,8 +841,8 @@
 <script type="application/ld+json">
   {
   "@context": "http://schema.org/",
-              "@type": "Product",
-              "name": {{ product.title | json }},
+                "@type": "Product",
+                "name": {{ product.title | json }},
   "url": {{ request.origin | append: product.url | json }},
   {% if seo_media -%}
     "image": [
@@ -850,7 +855,7 @@
   {%- endif %}
   "brand": {
   "@type": "Brand",
-                "name": {{ product.vendor | json }}
+                  "name": {{ product.vendor | json }}
   },
   "offers": [
   {%- for variant in product.variants -%}
@@ -877,6 +882,8 @@
   ]
   }
 </script>
+
+
 
 <div class="product-single__description rte">
   <ul class="tabs">
