@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "",
+            "content": "<p>No Return<\/p>",
             "page": ""
           }
         },
