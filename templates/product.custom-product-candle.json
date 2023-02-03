@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "",
+            "content": "<p>Beewax<\/p>",
             "page": ""
           }
         },
@@ -76,19 +76,19 @@
             "page": ""
           }
         },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-4": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Scent",
+            "icon": "price_tag",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
             "icon": "heart",
             "content": "",
             "page": ""
@@ -113,8 +113,8 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
         "collapsible-row-4",
+        "collapsible-row-3",
         "share"
       ],
       "settings": {
