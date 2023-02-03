@@ -428,21 +428,6 @@
 
 
 
-<div id="tab-content-1" class="tab-content active">
-  {{product.description}}
-</div>
-<div id="tab-content-2" class="tab-content">
-  <table>
-    <tr>
-      <td>Material</td>
-      <td>Beewax</td>
-    </tr>
-  </table>
-</div>
-
-
-
-
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
                 {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities
@@ -820,6 +805,19 @@
       ]
     }
   </script>
+
+  <div id="tab-content-1" class="tab-content active">
+  {{product.description}}
+</div>
+<div id="tab-content-2" class="tab-content">
+  <table>
+    <tr>
+      <td>Material</td>
+      <td>Beewax</td>
+    </tr>
+  </table>
+</div>
+
 </section>
 
 {% schema %}
