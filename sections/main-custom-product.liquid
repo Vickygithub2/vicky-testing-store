@@ -812,13 +812,14 @@
     
 
 
-    const hiddenInput = document.querySelector('#   {{ product_form_id }} input[name="id"]');
+
+    const hiddenInput = document.querySelector('#    {{ product_form_id }} input[name="id"]');
     const noScriptInputWrapper = document.createElement('div');
-    const variantSwitcher = document.querySelector('variant-radios[data-section="   {{ section.id }} "]') || document.querySelector('variant-selects[data-section="   {{ section.id }} "]');
-    noScriptInputWrapper.innerHTML = document.querySelector('.product-form__noscript-wrapper-   {{ section.id }}').textContent;
+    const variantSwitcher = document.querySelector('variant-radios[data-section="    {{ section.id }} "]') || document.querySelector('variant-selects[data-section="    {{ section.id }} "]');
+    noScriptInputWrapper.innerHTML = document.querySelector('.product-form__noscript-wrapper-    {{ section.id }}').textContent;
     variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
 
-    document.querySelector('#Variants-   {{ section.id }}').addEventListener('change', function(event) {
+    document.querySelector('#Variants-    {{ section.id }}').addEventListener('change', function(event) {
       hiddenInput.value = event.currentTarget.value;
     });
   });
@@ -835,8 +836,8 @@
 <script type="application/ld+json">
   {
   "@context": "http://schema.org/",
-            "@type": "Product",
-            "name": {{ product.title | json }},
+              "@type": "Product",
+              "name": {{ product.title | json }},
   "url": {{ request.origin | append: product.url | json }},
   {% if seo_media -%}
     "image": [
@@ -849,7 +850,7 @@
   {%- endif %}
   "brand": {
   "@type": "Brand",
-              "name": {{ product.vendor | json }}
+                "name": {{ product.vendor | json }}
   },
   "offers": [
   {%- for variant in product.variants -%}
@@ -877,23 +878,30 @@
   }
 </script>
 
-<div id="tab-content-1" class="tab-content active">
-  {{ product.description }}
-</div>
-<div id="tab-content-2" class="tab-content">
-  <table>
-    <tr>
-      <td>Material</td>
-      <td>{{ product.metafields.details.material }}</td>
-    </tr>
+<div class="product-single__description rte">
+  <ul class="tabs">
+    <li class="tab active" data-content-id="tab-content-1">Description</li>
+    <li class="tab " data-content-id="tab-content-2">Details</li>
+    <li class="tab " data-content-id="tab-content-2">Shipping</li>
+  </ul>
+
+  <div id="tab-content-1" class="tab-content active">
+    {{ product.description }}
+  </div>
+  <div id="tab-content-2" class="tab-content">
     <table>
       <tr>
-        <td>Weight</td>
-        <td>{{ product.metafields.details.weight }}</td>
+        <td>Material</td>
+        <td>{{ product.metafields.details.material }}</td>
       </tr>
-    </table>
+      <table>
+        <tr>
+          <td>Weight</td>
+          <td>{{ product.metafields.details.weight }}</td>
+        </tr>
+      </table>
+    </div>
   </div>
-
 </section>
 
 {% schema %}
