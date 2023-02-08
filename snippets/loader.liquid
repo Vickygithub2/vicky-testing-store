@@ -22,6 +22,15 @@
     opacity: 0;
     visibility: hidden;
   }
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #009578;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+  }
 
   @keyframes loading {
     from {
@@ -42,10 +51,5 @@
 </style>
 
 <div id="loader">
-  <svg
-    width="500"
-    height="503"
-    viewBox="0 0 500 503"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"></svg>
+  <h1>Page Content</h1>
 </div>
