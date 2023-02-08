@@ -491,6 +491,16 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`
       }
+
+
+
+      window.addEventListener("load", () => {
+        const loader = document.querySelector(".loader");
+        loader.classList.add("loader--hidden");
+        loader.addEventListener("transitionend", () => {
+          document.body.removeChild(loader);
+        });
+      });
     </script>
 
     {%- if settings.predictive_search_enabled -%}
