@@ -1418,5 +1418,9 @@ border-radius: 100%;
 .sticky-button{
   background-color: aqua;
   min-width: calc(12rem + var(--buttons-border-width) * 2);
-  min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+  min-height: 4.6rem;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  z-index: 2;
 }
