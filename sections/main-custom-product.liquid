@@ -758,13 +758,7 @@
         {% render 'icon-arrow' %}
       </a>
 
-    <button type="button" class="shopify-payment-button__button sticky-button ">
-      {%- if product.selected_or_first_available_variant.available -%}
-        {{ 'products.product.add_to_cart' | t }}
-      {%- else -%}
-        {{ 'products.product.sold_out' | t }}
-      {%- endif -%}
-    </button> 
+   
     </div>
   </div>
   {%- if section.settings.media_position == 'right' -%}
@@ -921,6 +915,14 @@
       </table>
     </div>
   </div>
+
+  <button type="button" class="shopify-payment-button__button sticky-button ">
+    {%- if product.selected_or_first_available_variant.available -%}
+      {{ 'products.product.add_to_cart' | t }}
+    {%- else -%}
+      {{ 'products.product.sold_out' | t }}
+    {%- endif -%}
+  </button> 
 </section>
 
 
