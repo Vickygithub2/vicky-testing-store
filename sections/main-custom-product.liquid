@@ -758,7 +758,7 @@
         {% render 'icon-arrow' %}
       </a>
 
-    <button id="sticky-button">
+    <button class="sticky-button">
       {%- if product.selected_or_first_available_variant.available -%}
         {{ 'products.product.add_to_cart' | t }}
       {%- else -%}
@@ -921,14 +921,13 @@
       </table>
     </div>
   </div>
-
-  <style>
-    #sticky-button{
-      min-width: calc(12rem + var(--buttons-border-width) * 2);
-      min-height: calc(4.5rem + var(--buttons-border-width) * 2);
-    }
-  </style>
 </section>
+<style>
+  .sticky-button{
+    min-width: calc(12rem + var(--buttons-border-width) * 2);
+    min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+  }
+</style>
 
 {% schema %}
   {
