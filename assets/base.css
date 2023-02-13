@@ -7,7 +7,7 @@ body, h1,h2,h3,h4,h5,h6{
   }
  } 
 
-:root,
+:root{
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-1);
   --gradient-background: var(--gradient-base-background-1);
