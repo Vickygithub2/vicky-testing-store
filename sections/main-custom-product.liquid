@@ -758,7 +758,7 @@
         {% render 'icon-arrow' %}
       </a>
 
-    <button class="sticky-button">
+    <button type="button" class="sticky-button">
       {%- if product.selected_or_first_available_variant.available -%}
         {{ 'products.product.add_to_cart' | t }}
       {%- else -%}
@@ -922,10 +922,11 @@
     </div>
   </div>
 </section>
+
 <style>
   .sticky-button{
-    min-width: calc(12rem + var(--buttons-border-width) * 2);
-    min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+    background-color: aqua;
+    
   }
 </style>
 
