@@ -757,6 +757,8 @@
         {{ 'products.product.view_full_details' | t }}
         {% render 'icon-arrow' %}
       </a>
+
+     Test
     </div>
   </div>
   {%- if section.settings.media_position == 'right' -%}
@@ -765,9 +767,7 @@
       {% render 'product-media-gallery', variant_images: variant_images, is_duplicate: true %}
     </div>
   {%- endif -%}
-</div>
 
-{% render 'product-media-modal' variant_images: variant_images %}
 
 {% assign popups = section.blocks | where: 'type', 'popup' %}
 {%- for block in popups -%}
