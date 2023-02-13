@@ -102,7 +102,7 @@
           </div>
         {%- else -%}
           <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
-            <div class="loading-overlay gradient"></div>
+        {%comment%} <div class="loading-overlay gradient"></div>{%endcomment%} 
     
             <ul id="product-grid" data-id="{{ section.id }}" class="
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
