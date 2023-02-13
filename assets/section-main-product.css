@@ -1388,7 +1388,7 @@ a.product__text {
 }
 
 .product-media-container .media {
-  padding-top: var(--ratio-percent);
+ //* padding-top: var(--ratio-percent);*//
 }
 
 .product-form__input input[type=radio]+label.color-swatch {
