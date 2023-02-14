@@ -171,7 +171,7 @@
             "type": "link_list",
             "settings": {
               "heading": "SOCIAL",
-              "menu": "footer"
+              "menu": "footer-social"
             }
           },
           "footer-2": {
