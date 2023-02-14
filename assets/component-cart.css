@@ -154,6 +154,11 @@ cart-items {
 
 .cart__ctas button {
   width: 100%;
+    color: #000000;
+    height: 47px;
+    border: black solid 1px;
+    border-radius: 10px;
+
 }
 
 .cart__ctas > *:not(noscript:first-child) + * {
