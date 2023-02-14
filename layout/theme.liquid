@@ -398,6 +398,10 @@
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
 
+    <!-- make sure to read up on the Flickity licenses -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     {%- unless settings.type_body_font.system? -%}
       <link
         rel="preload"
@@ -508,8 +512,7 @@
 
     {% include 'custom-fonts' %}
 
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
   </body>
 
 </html>

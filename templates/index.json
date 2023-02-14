@@ -95,9 +95,6 @@
     },
     "6128bec7-876d-4b71-9a27-64ee54a74b1c": {
       "type": "collection-slider",
-      "custom_css": [
-        "p{color:black}"
-      ],
       "settings": {
         "title": "Featured Collection",
         "collection": "exotic-shorthair",
