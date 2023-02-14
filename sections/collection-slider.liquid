@@ -1,12 +1,12 @@
 {%- capture flickity_options -%}
   {
   "prevNextButtons": true,
-        "pageDots": false,
-        "contain": true,
-        "cellAlign": "left",
-        "groupCells": true,
-        "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
-      }{%- endcapture -%}
+            "pageDots": false,
+            "contain": true,
+            "cellAlign": "left",
+            "groupCells": true,
+            "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
+          }{%- endcapture -%}
 
 
 <div class="featured-collection-slider page-width">
@@ -23,7 +23,7 @@
     {% for product in collection.products limit: product_limit %}
       <div class="carousel-cell">
         <a href="{{ product.url | within: collection }}">
-          <img class="img-explore" src="{{ product.featured_image | img_url: 'master'}}">
+          <img class="img-explore" src="{{ product.featured_image | img_url: 'width:30, height:30'}}">
           <h4>{{ product.title }}</h4>
           <p>{{ product.price | money }}</p>
         </a>
@@ -33,34 +33,34 @@
 </div>
 
 <style>
-.featured-collection-slider{
-  padding-left: 55px;
-  padding-right: 55px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.featured-collection-slider .carousel-cell{
-  width:25%;
-  padding: 0 15px;
-  display: block;
-}
-.flickity-button:disabled{
-  pointer-events: all!important;
-}
-@media screen and (max-width: 920px){
-  .featured-collection-slider{
-    padding-left: 15px;
-    padding-right: 15px;
+  .featured-collection-slider {
+    padding-left: 55px;
+    padding-right: 55px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  .featured-collection-slider .carousel-cell{
-    width:50%;
+  .featured-collection-slider .carousel-cell {
+    width: 25%;
+    padding: 0 15px;
+    display: block;
   }
-}
-@media screen and (max-width: 767px){
-  .featured-collection-slider .carousel-cell{
-    width:100%;
+  .flickity-button:disabled {
+    pointer-events: all !important;
   }
-}
+  @media screen and (max-width: 920px) {
+    .featured-collection-slider {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .featured-collection-slider .carousel-cell {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .featured-collection-slider .carousel-cell {
+      width: 100%;
+    }
+  }
 </style>
 
 {% schema %}
