@@ -219,7 +219,7 @@
       "type": "collection-slider",
       "settings": {
         "title": "Featured Collection",
-        "collection": "frontpage",
+        "collection": "exotic-shorthair",
         "product_count": 6
       }
     }
