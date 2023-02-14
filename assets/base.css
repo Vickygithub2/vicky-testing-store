@@ -2199,12 +2199,39 @@ input[type='checkbox'] {
 /* section-announcement-bar */
 #shopify-section-announcement-bar {
   z-index: 4;
+
+  position: relative;
+  overflow: hidden;
 }
 
 .announcement-bar {
+  
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
+  width: 100%;
+  height: 100px;
 }
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust animation speed for mobile */
+  #shopify-section-announcement-bar {
+    animation: slider 10s linear infinite;
+  }
+  /* Adjust container width for mobile */
+  .announcement-bar {
+    width: 200%;
+  }
+}
+
 
 .announcement-bar__link {
   display: block;
