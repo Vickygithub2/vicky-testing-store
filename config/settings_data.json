@@ -176,16 +176,25 @@
           },
           "footer-2": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "Our mission",
               "subtext": ""
+            }
+          },
+          "3b122063-c0ec-480c-99f6-0699b20891d9": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Most Popular",
+              "menu": "most-popular"
             }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "3b122063-c0ec-480c-99f6-0699b20891d9"
         ],
         "settings": {
           "color_scheme": "background-1",
