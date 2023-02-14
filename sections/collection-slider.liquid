@@ -24,8 +24,8 @@
       <div class="carousel-cell">
         <a href="{{ product.url | within: collection }}">
           <img
-            src="{{ product.featured_image | img_url}}"
-            class="motion-reduce" loading="lazy" width="400" height="484>
+            src="{{ product.featured_image | img_url:'master'}}"
+             loading="lazy" width="300" height="384>
           <h4>{{ product.title }}</h4>
           <p>{{ product.price | money }}</p>
         </a>
