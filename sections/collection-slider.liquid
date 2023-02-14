@@ -1,12 +1,12 @@
 {%- capture flickity_options -%}
   {
   "prevNextButtons": true,
-          "pageDots": false,
-          "contain": true,
-          "cellAlign": "left",
-          "groupCells": true,
-          "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
-        }{%- endcapture -%}
+            "pageDots": false,
+            "contain": true,
+            "cellAlign": "left",
+            "groupCells": true,
+            "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
+          }{%- endcapture -%}
 
 
 <div class="featured-collection-slider page-width">
@@ -27,8 +27,7 @@
             class="img-explore"
             src="{{ product.featured_image | img_url}}"
             width='350'
-            height='450'
-            loading='lazy'>
+            height='450'>
           <h4>{{ product.title }}</h4>
           <p>{{ product.price | money }}</p>
         </a>
