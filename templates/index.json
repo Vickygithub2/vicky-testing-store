@@ -95,6 +95,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -211,6 +212,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "6128bec7-876d-4b71-9a27-64ee54a74b1c": {
+      "type": "collection-slider",
+      "settings": {
+        "title": "Featured Collection",
+        "collection": "exotic-shorthair",
+        "product_count": 4
+      }
     }
   },
   "order": [
@@ -219,6 +228,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "multicolumn"
+    "multicolumn",
+    "6128bec7-876d-4b71-9a27-64ee54a74b1c"
   ]
 }
