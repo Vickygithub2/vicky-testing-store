@@ -221,6 +221,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "ec7e3984-3605-4d09-8e8f-82f5bd38161e": {
+      "type": "custom-slider",
+      "settings": {
+        "title": "",
+        "image": "shopify:\/\/shop_images\/peach-roses-on-table.jpg",
+        "image_link": ""
+      }
     }
   },
   "order": [
@@ -230,6 +238,7 @@
     "6128bec7-876d-4b71-9a27-64ee54a74b1c",
     "featured_collection",
     "collage",
-    "multicolumn"
+    "multicolumn",
+    "ec7e3984-3605-4d09-8e8f-82f5bd38161e"
   ]
 }
