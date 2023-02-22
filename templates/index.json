@@ -226,6 +226,7 @@
       "type": "custom-slider",
       "settings": {
         "image": "shopify:\/\/shop_images\/peach-roses-on-table.jpg",
+        "image_2": "shopify:\/\/shop_images\/tea-light-on-white-table.jpg",
         "image_link": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
