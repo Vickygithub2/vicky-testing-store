@@ -221,6 +221,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "86c2751f-9092-4779-95fb-61b4dbb3fd96": {
+      "type": "custom-slider",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/peach-roses-on-table.jpg",
+        "image_link": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -230,6 +247,7 @@
     "6128bec7-876d-4b71-9a27-64ee54a74b1c",
     "featured_collection",
     "collage",
-    "multicolumn"
+    "multicolumn",
+    "86c2751f-9092-4779-95fb-61b4dbb3fd96"
   ]
 }
