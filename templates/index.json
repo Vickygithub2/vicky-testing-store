@@ -221,6 +221,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3a35a307-7be0-41b5-b282-d3d04323c635": {
+      "type": "custom-slider",
+      "settings": {
+        "heading": "Heading",
+        "image": "shopify:\/\/shop_images\/peach-roses-on-table.jpg",
+        "image_2": "shopify:\/\/shop_images\/tea-light-on-white-table.jpg",
+        "image_link": ""
+      }
     }
   },
   "order": [
@@ -230,6 +239,7 @@
     "6128bec7-876d-4b71-9a27-64ee54a74b1c",
     "featured_collection",
     "collage",
-    "multicolumn"
+    "multicolumn",
+    "3a35a307-7be0-41b5-b282-d3d04323c635"
   ]
 }
