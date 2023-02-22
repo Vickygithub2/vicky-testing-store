@@ -1,70 +1,12 @@
-
+{%- if section.settings.heading != blank -%}
+  {{ section.settings.heading }}
+{%- endif -%}
 
 {%- if section.settings.image != blank -%}
-    {{ section.settings.image | image_url: width: 600 | image_tag:
-      loading: 'lazy'
-    }}
-    {%- else -%}
-    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-  {%- endif -%}
-
-<div class="swiper">
-    <div class="swiper-wrapper">
-      <a href="{{ section.settings.image}}">
-        <img
-          class="swiper-slide"
-          src="{{ section.settings.image | img_url:'master'}}"
-          loading="lazy"
-          width="600"
-          height="300">
-      </a>
-        <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-   <!-- If we need scrollbar -->
-   <div class="swiper-scrollbar"></div>
-    </div>
-</div>
-</div>
-
-
-
-
-
-<style>
-    .swiper {
-  width: 600px;
-  height: 300px;
-}
-
-</style>
-
-<script>
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'vertical',
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-</script>
+  <a href="{{ section.settings.image}}"></a>
+{%- else -%}
+  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+{% endif %}
 
 
 
@@ -74,23 +16,24 @@ const swiper = new Swiper('.swiper', {
     "settings": [
       {
         "type": "text",
-        "id": "title",
-        "label": "Heading"
+        "id": "heading",
+        "label": "Heading",
+
+        "default": "Heading"
       }, {
         "type": "image_picker",
         "id": "image",
+        "label": "Image"
+      }, {
+        "type": "image_picker",
+        "id": "image_2",
         "label": "Image"
       }, {
         "type": "url",
         "id": "image_link",
         "label": "Image Link"
       }
-    ],
-    "presets": [
-      {
-        "name": "Carosel",
-        "settings": {}
-      }
     ]
+
   }
 {% endschema %}
