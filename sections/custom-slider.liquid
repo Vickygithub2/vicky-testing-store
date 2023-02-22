@@ -29,12 +29,13 @@
   }
 {%- endstyle -%}
 
-<button class="leftbtn"></button>
-<button class="rightbtn"></button>
+
 {% if block.settings.image_link != blank %}
   <a href="{{block.settings.image_link}}">
   {% endif %}
 
+  <button class="leftbtn"></button>
+  <button class="rightbtn"></button>
   <div
     onclick="location.href='{{section.settings.image_link}}';"
     style="cursor: pointer;"
