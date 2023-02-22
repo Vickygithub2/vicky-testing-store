@@ -1,6 +1,57 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+{%- assign collection = collections[section.settings.collection] -%}
+{%- assign product_limit = section.settings.product_count -%}
+
+<div class="swiper">
+  {% for product in collection.products limit: product_limit %}
+    <div class="swiper-wrapper">
+      <a href="{{ product.url | within: collection }}">
+        <img
+          class="swiper-slide"
+          src="{{ product.featured_image | img_url:'master'}}"
+          loading="lazy"
+          width="600"
+          height="300">
+        <h4>{{ product.title }}</h4>
+        <p>{{ product.price | money }}</p>
+      </a>
+        <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+   <!-- If we need scrollbar -->
+   <div class="swiper-scrollbar"></div>
+    </div>
+  {% endfor %}
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+
+
+
+<style>
+    .swiper {
+  width: 600px;
+  height: 300px;
+}
+
+</style>
+
+
+
+
+
+
 {% schema %}
   {
-    "name": "carosel",
+    "name": "Carosel",
     "settings": [
       {
         "type": "text",
@@ -23,7 +74,7 @@
     "presets": [
       {
         "category": "Collection",
-        "name": "carosel",
+        "name": "Carosel",
         "settings": {}
       }
     ]
