@@ -240,7 +240,7 @@
             "star_size": 20,
             "text_align": "center",
             "product": "{{product}}",
-            "stars_text_empty": "No reviews"
+            "stars_text_empty": ""
           }
         }
       },
