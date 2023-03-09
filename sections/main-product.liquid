@@ -716,6 +716,10 @@
 {% endfor %}      
 <!-- End of Outputting tags --> 
 
+{% if product.metafields.custom.show_tags %}
+… Outputting tags code here …
+{% endif %}
+
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       function isIE() {
