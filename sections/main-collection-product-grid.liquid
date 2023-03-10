@@ -136,22 +136,7 @@
     </div>
   </div>
 </div>
-<!-- Outputting tags -->
-{% assign count = 0 %}
-{% assign tagcount = 0 %}
-{% for tag in product.tags %}
-  {%  if tag contains "related:" %}
-    {% if count < 1 %}<h2>Related:</h2>{% endif %}
-    {% assign tag-text = tag | split: "related:" | last %}
-    <div style="border: 2px solid #7718d1; padding: 10px; border-radius: 8px; text-align: center; text-transform: capitalize; margin-bottom: 20px; background: #f1d5ef;">{{ tag-text }}</div>
-    {% assign count = 1 %}
-  {% else %}
-    {% if tagcount < 1 %}<h2>Other tags:</h2>{% endif %}
-    <div style="border: 2px solid black;  padding: 10px; border-radius: 8px; text-align: center; text-transform: capitalize; margin-bottom: 20px;">{{ tag }}</div>
-    {% assign tagcount = 1 %}
-  {% endif %}
-{% endfor %}      
-<!-- End of Outputting tags --> 
+
 
 {% schema %}
 {
