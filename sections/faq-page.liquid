@@ -10,13 +10,15 @@
       <div class="tab-content">{{ block.settings.answer }}</div>
     </div>
   {% endfor %}
+  {% if product.metafields.custom.show_tags %}
+… Outputting tags code here …
+{% endif %}
 
 </div>
 
 
-{% if product.metafields.custom.show_tags %}
-… Outputting tags code here …
-{% endif %}
+
+
 {% schema %}
   {
     "name": "faq",
