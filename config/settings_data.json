@@ -225,7 +225,23 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "13045373370263289942": {
+        "type": "shopify:\/\/apps\/vanga-ai-upsell-assistant\/blocks\/cart\/d34a5796-ad60-4937-91b7-563911e0a6ee",
+        "disabled": false,
+        "settings": {
+          "theme_mode": "light",
+          "accent_color": "#000000",
+          "button_color": "#000000",
+          "button_text_color": "#ffffff",
+          "show_vanga_logo": true,
+          "show_free_shipping_progress": true,
+          "require_consent": false,
+          "terms_and_conditions_url": ""
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
