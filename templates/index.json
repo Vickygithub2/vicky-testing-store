@@ -245,18 +245,18 @@
         "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How long does the shipping take?",
+            "icon": "leaf",
+            "row_content": "<p>It take 1-2 days for shipping<\/p>",
             "page": ""
           }
         },
         "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How can I ask for refund?",
+            "icon": "return",
+            "row_content": "<p>you can ask for refund by contact 000000<\/p>",
             "page": ""
           }
         },
@@ -287,7 +287,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "Frequently Asked Questions",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
