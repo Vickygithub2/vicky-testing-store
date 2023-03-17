@@ -65,6 +65,7 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -85,18 +86,18 @@
         "text"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 72,
+        "padding_bottom": 52
       }
     },
     "6128bec7-876d-4b71-9a27-64ee54a74b1c": {
       "type": "collection-slider",
       "settings": {
-        "title": "Featured Collection",
+        "title": "Popular Products",
         "collection": "exotic-shorthair",
         "product_count": 10
       }
