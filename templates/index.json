@@ -273,9 +273,9 @@
         "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How can I know my scent?",
+            "icon": "perfume",
+            "row_content": "<p>You can know your scent by ...<\/p>",
             "page": ""
           }
         }
