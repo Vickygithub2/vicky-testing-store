@@ -490,6 +490,7 @@
     },
     "fc2f100b-e57e-4381-8cea-bedb57fe6138": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--16680068186347__fc2f100b-e57e-4381-8cea-bedb57fe6138-16790632774928b640-0": {
           "type": "video",
@@ -528,6 +529,110 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "f8122046-55c8-47a3-be83-031039a98a4e": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--16680068186347__f8122046-55c8-47a3-be83-031039a98a4e-1679062388c4b0da35-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16680068186347__f8122046-55c8-47a3-be83-031039a98a4e-1679062388c4b0da35-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16680068186347__f8122046-55c8-47a3-be83-031039a98a4e-1679062388c4b0da35-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16680068186347__f8122046-55c8-47a3-be83-031039a98a4e-1679062388c4b0da35-0",
+        "template--16680068186347__f8122046-55c8-47a3-be83-031039a98a4e-1679062388c4b0da35-1",
+        "template--16680068186347__f8122046-55c8-47a3-be83-031039a98a4e-1679062388c4b0da35-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "683e2e88-c0af-4d64-8e95-6b09dc989db5": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16680068186347__683e2e88-c0af-4d64-8e95-6b09dc989db5-16790633299ad52de9-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16680068186347__683e2e88-c0af-4d64-8e95-6b09dc989db5-16790633299ad52de9-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16680068186347__683e2e88-c0af-4d64-8e95-6b09dc989db5-16790633299ad52de9-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16680068186347__683e2e88-c0af-4d64-8e95-6b09dc989db5-16790633299ad52de9-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680068186347__683e2e88-c0af-4d64-8e95-6b09dc989db5-16790633299ad52de9-0",
+        "template--16680068186347__683e2e88-c0af-4d64-8e95-6b09dc989db5-16790633299ad52de9-1",
+        "template--16680068186347__683e2e88-c0af-4d64-8e95-6b09dc989db5-16790633299ad52de9-2",
+        "template--16680068186347__683e2e88-c0af-4d64-8e95-6b09dc989db5-16790633299ad52de9-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -542,6 +647,8 @@
     "07a58b93-4bf9-4030-be44-f8bfe86c55ed",
     "a2a8b500-7901-4b7e-8f9c-82ce071531f4",
     "172f3e1d-494e-49fa-98c4-a5073c753f84",
-    "fc2f100b-e57e-4381-8cea-bedb57fe6138"
+    "fc2f100b-e57e-4381-8cea-bedb57fe6138",
+    "f8122046-55c8-47a3-be83-031039a98a4e",
+    "683e2e88-c0af-4d64-8e95-6b09dc989db5"
   ]
 }
