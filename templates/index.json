@@ -171,6 +171,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -263,9 +264,9 @@
         "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How can I book an appointment?",
+            "icon": "heart",
+            "row_content": "<p>You can book an appoinappointmen through xxxxxx<\/p>",
             "page": ""
           }
         },
