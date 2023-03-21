@@ -49,6 +49,43 @@
         "show_text_below": false
       }
     },
+    "hero_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "DISCOVER BlOOSOM & GLOW",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Set a romantic mood for a special occasion or just add a touch of luxury to your everyday life",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -368,6 +405,7 @@
   },
   "order": [
     "image_banner",
+    "hero_banner",
     "video",
     "rich_text",
     "6128bec7-876d-4b71-9a27-64ee54a74b1c",
