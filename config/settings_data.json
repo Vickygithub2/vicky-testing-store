@@ -221,6 +221,38 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+        }
+      },
+      "faq-page": {
+        "type": "faq-page",
+        "blocks": {
+          "4da748e0-28bb-46e8-8c90-552bade61eb8": {
+            "type": "text",
+            "settings": {
+              "question": "h",
+              "answer": "<p>hhh<\/p>",
+              "tab-toggle": true
+            }
+          },
+          "7f89d884-5c1d-413c-9b3a-e60ce24ab52f": {
+            "type": "text",
+            "settings": {
+              "question": "",
+              "answer": "",
+              "tab-toggle": true
+            }
+          }
+        },
+        "block_order": [
+          "4da748e0-28bb-46e8-8c90-552bade61eb8",
+          "7f89d884-5c1d-413c-9b3a-e60ce24ab52f"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
