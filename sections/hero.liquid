@@ -19,29 +19,40 @@
 </section>
 
 
-
 {% schema %}
   {
-    "name": "hero",
+    "name": "Hero Banner",
     "settings": [],
     "blocks": [
       {
         "type": "text",
-        "name": "Title",
+        "name":"text",
         "settings": [
           {
             "type": "text",
             "label": "Title",
             "id": "title"
-          }, {
+          }, 
+          {
             "type": "richtext",
             "label": "Subtitle",
             "id": "subtitle"
+          },
+          {
+            "type": "image_picker",
+            "id": "hero",
+            "label": "Hero Image"
           }
         ]
+      },
+      {
+        "type": "buttons",
+        "name":"button",
+        "settings": [
+        
+]
       }
-
     ]
-
   }
-{% endschema %}
+  {% endschema %}
+  
