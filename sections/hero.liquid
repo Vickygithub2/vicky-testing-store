@@ -1,7 +1,5 @@
 <!-- hero-banner.liquid -->
-{% if section.settings.image %}
-  <img src="{{ section.settings.image | img_url: width: '300x', loading: 'lazy' }}" />
-{% endif %}
+
 
 {% schema %}
   {
@@ -68,8 +66,12 @@
         "settings": [
           {
             "type": "image_picker",
-            "id": "image",
-            "label": "Hero Image"
+            "id": "image_desktop",
+            "label": "Desktop Image"
+          }, {
+            "type": "image_picker",
+            "id": "image_mobile",
+            "label": "Mobile Image"
           }, {
             "type": "range",
             "id": "image_overlay_opacity",
@@ -78,6 +80,15 @@
             "step": 10,
             "unit": "%",
             "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
+            "default": 0
+          }, {
+            "type": "range",
+            "id": "card_image_padding",
+            "min": 0,
+            "max": 20,
+            "step": 2,
+            "unit": "px",
+            "label": "t:settings_schema.global.settings.image_padding.label",
             "default": 0
           }
         ]
