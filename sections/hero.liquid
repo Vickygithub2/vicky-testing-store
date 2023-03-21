@@ -37,7 +37,22 @@
             "type": "richtext",
             "label": "Subtitle",
             "id": "subtitle"
+          },
+          {
+        "type": "select",
+        "id": "text_alignment",
+        "options": [
+          {
+            "value": "horizontal",
+            "label": "t:sections.image-banner.settings.desktop_content_alignment.options__1.label"
+          }, {
+            "value": "vertical",
+            "label": "t:sections.image-banner.settings.desktop_content_alignment.options__2.label"
           }
+        ],
+        "default": "horizontal",
+        "label": "t:sections.image-banner.settings.desktop_content_alignment.label"
+      }
         ]
       },
       {
@@ -48,7 +63,7 @@
           {
             "type": "text",
             "id": "heading",
-            "default": "Image banner",
+            "default": "Heading",
             "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
           }, {
             "type": "select",
