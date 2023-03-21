@@ -1,5 +1,5 @@
 <!-- hero-banner.liquid -->
-{% if section.settings.image != blank %}
+{% if section.settings.image %}
   <img src="{{ section.settings.image | img_url: width: '300x', loading: 'lazy' }}" />
 {% endif %}
 
