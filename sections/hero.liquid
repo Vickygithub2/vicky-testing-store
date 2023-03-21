@@ -1,23 +1,5 @@
 <!-- hero-banner.liquid -->
 
-<section class="hero-banner">
-  {% if section.settings.hero_banner_image %}
-    <img src="{{ section.settings.text.hero }}" alt="{{ section.settings.hero_alt_text }}"" loading="lazy" width="480" height="480" />
-  {% endif %}
-
-  {% if section.settings.hero_banner_text %}
-    <div class="hero-banner-text">
-      {{ section.settings.text }}
-    </div>
-  {% endif %}
-
-  {% if section.settings.text %}
-    <a href="{{ section.settings.button_link }}" class="hero-banner-button">
-      {{ section.settings.text }}
-    </a>
-  {% endif %}
-</section>
-
 
 {% schema %}
   {
@@ -26,36 +8,33 @@
     "blocks": [
       {
         "type": "text",
-        "name":"text",
+        "name": "text",
         "settings": [
           {
             "type": "text",
             "label": "Title",
             "id": "title"
-          }, 
-          {
+          }, {
             "type": "richtext",
             "label": "Subtitle",
             "id": "subtitle"
-          },
-          {
-        "type": "select",
-        "id": "text_alignment",
-        "options": [
-          {
-            "value": "horizontal",
-            "label": "horizontal"
           }, {
-            "value": "vertical",
-            "label": "vertical"
+            "type": "select",
+            "id": "text_alignment",
+            "options": [
+              {
+                "value": "horizontal",
+                "label": "horizontal"
+              }, {
+                "value": "vertical",
+                "label": "vertical"
+              }
+            ],
+            "default": "horizontal",
+            "label": "horizontal"
           }
-        ],
-        "default": "horizontal",
-        "label": "horizontal"
-      }
         ]
-      },
-      {
+      }, {
         "type": "heading",
         "name": "t:sections.image-banner.blocks.heading.name",
         "limit": 1,
@@ -81,32 +60,28 @@
             "label": "t:sections.all.heading_size.label"
           }
         ]
-      }, 
-      {
-            "type": "image_picker",
-            "name":"hero",
-        
-            "settings": [
-              {
-            "type": "image_picker",
-            "id": "hero",
-            "label": "Hero Image"
-          },
+      }, {
+        "type": "image_picker",
+        "name": "image",
+        "settings": [
           {
-        "type": "range",
-        "id": "image_overlay_opacity",
-        "min": 0,
-        "max": 100,
-        "step": 10,
-        "unit": "%",
-        "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
-        "default": 0
-      }
-            ]
-          },
-      {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Hero Image"
+          }, {
+            "type": "range",
+            "id": "image_overlay_opacity",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "unit": "%",
+            "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
+            "default": 0
+          }
+        ]
+      }, {
         "type": "buttons",
-        "name":"button",
+        "name": "button",
         "settings": [
           {
             "type": "text",
@@ -114,14 +89,11 @@
             "default": "Button label",
             "label": "Primary Button Label",
             "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
-          },
-          {
+          }, {
             "type": "url",
             "id": "button_link_1",
             "label": "Primary Button Link"
-          },
-      
-          {
+          }, {
             "type": "text",
             "id": "button_label_2",
             "default": "Button label",
@@ -135,8 +107,6 @@
         ]
       }
 
-]
+    ]
   }
-
-  {% endschema %}
-  
+{% endschema %}
