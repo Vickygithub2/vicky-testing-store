@@ -221,23 +221,6 @@
         "settings": {
           "color_scheme": "background-1"
         }
-      },
-      "hero": {
-        "type": "hero",
-        "blocks": {
-          "479ecfca-2ff6-48a0-bdee-70849d5f0c1f": {
-            "type": "image_picker",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/green-vine-between-place-settings.jpg",
-              "image_overlay_opacity": 0
-            }
-          }
-        },
-        "block_order": [
-          "479ecfca-2ff6-48a0-bdee-70849d5f0c1f"
-        ],
-        "settings": {
-        }
       }
     },
     "content_for_index": [
