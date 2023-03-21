@@ -131,7 +131,7 @@
               <span>{{ block.settings.heading | escape | upcase }}</span>
             </h2>
             {%- when 'text' -%}
-            <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+            <div class="banner__text {{ block.settings.text_style }} banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }}" {{ block.shopify_attributes }}  >
               <span>{{ block.settings.text | escape }}</span>
             </div>
            
