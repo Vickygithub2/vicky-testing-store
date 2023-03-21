@@ -19,4 +19,29 @@
 </section>
 
 
-  
+
+{% schema %}
+  {
+    "name": "hero",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Title",
+        "settings": [
+          {
+            "type": "text",
+            "label": "Title",
+            "id": "title"
+          }, {
+            "type": "richtext",
+            "label": "Subtitle",
+            "id": "subtitle"
+          }
+        ]
+      }
+
+    ]
+
+  }
+{% endschema %}
