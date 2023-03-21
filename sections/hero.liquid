@@ -2,18 +2,18 @@
 
 <section class="hero-banner">
   {% if section.settings.hero_banner_image %}
-    <img src="{{ section.settings.hero_banner_image }}" alt="{{ section.settings.hero_banner_alt_text }}"" loading="lazy" width="480" height="480" />
+    <img src="{{ section.settings.hero }}" alt="{{ section.settings.hero_alt_text }}"" loading="lazy" width="480" height="480" />
   {% endif %}
 
   {% if section.settings.hero_banner_text %}
     <div class="hero-banner-text">
-      {{ section.settings.hero_banner_text }}
+      {{ section.settings.text }}
     </div>
   {% endif %}
 
-  {% if section.settings.hero_banner_button_text %}
-    <a href="{{ section.settings.hero_banner_button_link }}" class="hero-banner-button">
-      {{ section.settings.hero_banner_button_text }}
+  {% if section.settings.text %}
+    <a href="{{ section.settings.button_link }}" class="hero-banner-button">
+      {{ section.settings.text }}
     </a>
   {% endif %}
 </section>
