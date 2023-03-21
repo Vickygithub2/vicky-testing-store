@@ -181,7 +181,7 @@
 
 {% schema %}
   {
-    "name": "Hero Section",
+    "name": "Hero",
     "tag": "section",
     "class": "section",
     "settings": [
@@ -195,8 +195,6 @@
         "id": "image_mobile",
         "label": "Mobile Image"
       },
-
-
 
       {
         "type": "url",
@@ -362,13 +360,13 @@
     "blocks": [
       {
         "type": "heading",
-        "name": "t:sections.image-banner.blocks.heading.name",
+        "name": "Heading",
         "limit": 1,
         "settings": [
           {
             "type": "text",
             "id": "heading",
-            "default": "Image banner",
+            "default": "Heading",
             "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
           }, 
           {
@@ -381,9 +379,6 @@
               }, {
                 "value": "h1",
                 "label": "t:sections.all.heading_size.options__2.label"
-              }, {
-                "value": "h0",
-                "label": "t:sections.all.heading_size.options__3.label"
               }
             ],
             "default": "h1",
@@ -392,7 +387,7 @@
         ]
       }, {
         "type": "text",
-        "name": "Tect",
+        "name": "Text",
         "limit": 1,
         "settings": [
           {
@@ -435,30 +430,30 @@
             "type": "text",
             "id": "button_label_1",
             "default": "Button label",
-            "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+            "label": "Primary Button Label",
             "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
           },
           {
             "type": "url",
             "id": "button_link_1",
-            "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+            "label": "Primary Button Link"
           },
           {
             "type": "checkbox",
             "id": "button_style_secondary_1",
             "default": false,
-            "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
+            "label": "Secondary Button Label"
           },
           {
             "type": "text",
             "id": "button_label_2",
             "default": "Button label",
-            "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
+            "label": "Secondary Button Lablel",
             "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
           }, {
             "type": "url",
             "id": "button_link_2",
-            "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
+            "label": "Secondary Button Link"
           }, {
             "type": "checkbox",
             "id": "button_style_secondary_2",
