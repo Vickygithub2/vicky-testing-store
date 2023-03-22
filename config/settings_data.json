@@ -227,7 +227,6 @@
         "blocks": {
           "4f91237a-03c0-444e-a47a-f31c4b42840e": {
             "type": "heading",
-            "disabled": true,
             "settings": {
               "heading": "Heading",
               "heading_size": "h1",
@@ -236,7 +235,6 @@
           },
           "921c3e4e-506b-4176-867f-80565294108f": {
             "type": "text",
-            "disabled": true,
             "settings": {
               "text": "Title",
               "subtext": "Subtext",
@@ -251,7 +249,6 @@
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/green-vine-between-place-settings.jpg",
-          "image_mobile": "shopify:\/\/shop_images\/Untitled-Artwork_2.png",
           "image_link": "",
           "image_overlay_opacity": 0,
           "image_height": "medium",
