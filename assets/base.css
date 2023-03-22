@@ -1349,13 +1349,13 @@ button.shopify-payment-button__button--unbranded {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 0;
-  padding: 0 3rem;
+  padding: 1rem 3rem;
   cursor: pointer;
   font: inherit;
+  border: 1px solid;
   font-size: 1.5rem;
+  border-radius: 10px;
   text-decoration: none;
-  color: rgb(var(--color-button-text));
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
