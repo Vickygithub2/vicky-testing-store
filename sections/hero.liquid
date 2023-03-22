@@ -104,7 +104,7 @@
           assign image_mobile_class = "banner__media-image-half"
         endif
         if section.settings.image_mobile != blank 
-          assign sizes = "(max-width: 480px) 50vw, 100vw"
+          assign sizes = "(max-width: 788px) 50vw, 100vw"
         else
           assign sizes = "100vw"
         endif
@@ -112,7 +112,7 @@
         {{ section.settings.image_mobile | image_url: width: 400 | image_tag:
          loading: 'lazy',
          width: section.settings.image_mobile.width,
-         height: '750',
+         height: image_mobile_height,
          class: image_mobile_class,
          sizes: sizes,
          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
@@ -126,7 +126,8 @@
 
 
     <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width"
-     style="bottom:0;position: absolute;">
+    style="@media screen and (min-width: 768px) { position: absolute; bottom: 0; }">
+     
       <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
