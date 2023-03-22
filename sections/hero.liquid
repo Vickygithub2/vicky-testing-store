@@ -74,11 +74,11 @@
     id="Banner-{{ section.id }}"
     class="banner banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_mobile_height }}{% if section.settings.adapt_height_first_image_mobile and section.settings.image_mobile != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
     {% if section.settings.image_mobile != blank -%}
-      <div class="banner__media media{% if section.settings.image_mobile == blank and section.settings.image_mobile_2 == blank %} placeholder{% endif %}">
+      <div class="banner__media media{% if section.settings.image_mobile == blank %} placeholder{% endif %}">
         {%-liquid
         assign image_mobile_height = section.settings.image_mobile.width | divided_by: section.settings.image_mobile.aspect_ratio
         if section.settings.image_mobile != blank
-          assign image_mobile_class = "banner__media-image_mobile-half"
+          assign image_mobile_class = "banner__media-image-half"
         endif
         if section.settings.image_mobile != blank 
           assign sizes = "(max-width: 480px) 50vw, 100vw"
@@ -89,7 +89,7 @@
         {{ section.settings.image_mobile | image_url: width: 400 | image_tag:
          loading: 'lazy',
          width: section.settings.image_mobile.width,
-         height: image_mobile_height,
+         height: '750',
          class: image_mobile_class,
          sizes: sizes,
          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
