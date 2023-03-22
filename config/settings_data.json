@@ -224,6 +224,29 @@
       },
       "hero": {
         "type": "hero",
+        "blocks": {
+          "82959363-b658-4f8d-b41a-ec34ae7ad395": {
+            "type": "heading",
+            "settings": {
+              "heading": "Heading",
+              "heading_size": "h1",
+              "padding": 20
+            }
+          },
+          "ddfc924a-b1a8-467f-b631-a7b1cefe7ddc": {
+            "type": "text",
+            "settings": {
+              "text": "Title",
+              "subtext": "Subtext",
+              "text_style": "body",
+              "desktop_content_position": "middle-center"
+            }
+          }
+        },
+        "block_order": [
+          "82959363-b658-4f8d-b41a-ec34ae7ad395",
+          "ddfc924a-b1a8-467f-b631-a7b1cefe7ddc"
+        ],
         "settings": {
           "image": "shopify:\/\/shop_images\/green-vine-between-place-settings.jpg",
           "image_link": "",
