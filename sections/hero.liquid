@@ -23,11 +23,34 @@
 {%- endif -%}
 
 {%- style -%}
+
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }}
     ;
   }
+
 {%- endstyle -%}
+
+
+
+
+{%- style -%}
+ @media screen and (max-width: 749px) {
+  .section-{{ section.id }}{
+    margin-top: {{ section.settings.padding | times: 0.6 | round: 0 }}px;
+  }
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}{
+      margin-top: {{ section.settings.padding }}px;
+
+    }
+  }
+{%- endstyle -%}
+
+
+
 
 {% if block.settings.image_link != blank %}
   <a href="{{block.settings.image_link}}">
@@ -107,9 +130,10 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
-            <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+            <h2 class=" block-padding banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.heading | escape | upcase }}</span>
             </h2>
+           
           
             {%- when 'text' -%}
             <div class="banner__text {{ block.settings.text_style }}{{ block.settings.desktop_content_alignment }}" {{ block.shopify_attributes }}  >
@@ -207,18 +231,6 @@
         "id": "desktop_content_position",
         "options": [
           {
-            "value": "top-left",
-            "label": "t:sections.image-banner.settings.desktop_content_position.options__1.label"
-          },
-          {
-            "value": "top-center",
-            "label": "t:sections.image-banner.settings.desktop_content_position.options__2.label"
-          },
-          {
-            "value": "top-right",
-            "label": "t:sections.image-banner.settings.desktop_content_position.options__3.label"
-          },
-          {
             "value": "middle-left",
             "label": "t:sections.image-banner.settings.desktop_content_position.options__4.label"
           }, {
@@ -227,25 +239,12 @@
           }, {
             "value": "middle-right",
             "label": "t:sections.image-banner.settings.desktop_content_position.options__6.label"
-          }, {
-            "value": "bottom-left",
-            "label": "t:sections.image-banner.settings.desktop_content_position.options__7.label"
-          }, {
-            "value": "bottom-center",
-            "label": "t:sections.image-banner.settings.desktop_content_position.options__8.label"
-          }, {
-            "value": "bottom-right",
-            "label": "t:sections.image-banner.settings.desktop_content_position.options__9.label"
           }
         ],
         "default": "middle-center",
         "label": "t:sections.image-banner.settings.desktop_content_position.label"
-      }, {
-        "type": "checkbox",
-        "id": "show_text_box",
-        "default": true,
-        "label": "t:sections.image-banner.settings.show_text_box.label"
-      }, {
+      },  
+      {
         "type": "select",
         "id": "desktop_content_alignment",
         "options": [
@@ -309,19 +308,8 @@
         ],
         "default": "center",
         "label": "t:sections.image-banner.settings.mobile_content_alignment.label"
-      }, {
-        "type": "checkbox",
-        "id": "stack_images_on_mobile",
-        "default": true,
-        "label": "t:sections.image-banner.settings.stack_images_on_mobile.label"
-      }, {
-        "type": "checkbox",
-        "id": "show_text_below",
-        "default": true,
-        "label": "t:sections.image-banner.settings.show_text_below.label"
       }
     ],
-
 
     "blocks": [
       {
