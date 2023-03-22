@@ -104,7 +104,7 @@
           assign image_mobile_class = "banner__media-image-half"
         endif
         if section.settings.image_mobile != blank 
-          assign sizes = "(max-width: 750px) 50vw, 100vw"
+          assign sizes = "(mix-width: 750px) 50vw, 100vw"
         else
           assign sizes = "100vw"
         endif
@@ -113,7 +113,7 @@
          loading: 'lazy',
          width: section.settings.image_mobile.width,
          height: 750,
-         class: image_mobile_class,
+         class: image_class,
          sizes: sizes,
          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
          alt: section.settings.image_mobile.alt | escape }}
