@@ -225,6 +225,14 @@
       "hero": {
         "type": "hero",
         "blocks": {
+          "4f91237a-03c0-444e-a47a-f31c4b42840e": {
+            "type": "heading",
+            "settings": {
+              "heading": "Heading",
+              "heading_size": "h1",
+              "padding": 0
+            }
+          },
           "921c3e4e-506b-4176-867f-80565294108f": {
             "type": "text",
             "settings": {
@@ -236,6 +244,7 @@
           }
         },
         "block_order": [
+          "4f91237a-03c0-444e-a47a-f31c4b42840e",
           "921c3e4e-506b-4176-867f-80565294108f"
         ],
         "settings": {
