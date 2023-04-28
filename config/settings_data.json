@@ -249,6 +249,7 @@
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/green-vine-between-place-settings.jpg",
+          "image_mobile": "shopify:\/\/shop_images\/green-vine-between-place-settings.jpg",
           "image_link": "",
           "image_overlay_opacity": 0,
           "image_height": "medium",
