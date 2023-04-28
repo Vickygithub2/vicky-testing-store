@@ -105,7 +105,6 @@
     align-items: center;
     justify-content: center;
   }
- 
 
   .banner__content.banner__content--middle-right {
     align-items: center;
@@ -392,7 +391,7 @@
 }
 
 @media screen and (min-width: 750px) {
-  .banner__box {
+  .banner__box1 {
     width: auto;
     max-width: 71rem;
     min-width: 45rem;
