@@ -228,18 +228,18 @@
           "4f91237a-03c0-444e-a47a-f31c4b42840e": {
             "type": "heading",
             "settings": {
-              "heading": "Heading",
+              "heading": "This is the hero section",
               "heading_size": "h1",
-              "padding": 0
+              "padding": 40
             }
           },
           "921c3e4e-506b-4176-867f-80565294108f": {
             "type": "text",
             "settings": {
-              "text": "Title",
-              "subtext": "Subtext",
+              "text": "Here is the title",
+              "subtext": "here is the subtext",
               "text_style": "body",
-              "desktop_content_position": "middle-center"
+              "desktop_content_position": "bottom-right"
             }
           }
         },
