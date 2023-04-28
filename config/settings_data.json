@@ -253,11 +253,13 @@
           "image_link": "",
           "image_overlay_opacity": 0,
           "image_height": "medium",
-          "adapt_height_first_image": false,
           "desktop_content_position": "middle-center",
-          "desktop_content_alignment": "center",
           "color_scheme": "background-1",
-          "mobile_content_alignment": "left"
+          "mobile_content_alignment": "left",
+          "button_label_1": "bbbbbbbbbbbbbbbb",
+          "button_link_1": "",
+          "button_label_2": "Button label",
+          "button_link_2": ""
         }
       }
     },
