@@ -106,11 +106,7 @@
     justify-content: center;
   }
 
-    .banner__content1.banner__content--middle-center {
-    align-items: center;
-    justify-content: center;
-    bottom: 432px;
-  }
+
  
 
   .banner__content.banner__content--middle-right {
@@ -132,6 +128,12 @@
     align-items: flex-end;
     justify-content: flex-end;
   }
+}
+
+.banner__hero{
+  align-items: flex-end;
+    justify-content: center;
+  bottom:432px;
 }
 
 @media screen and (max-width: 749px) {
