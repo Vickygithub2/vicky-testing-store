@@ -9,6 +9,11 @@
 }
 
 @media only screen and (max-width: 749px) {
+  .banner__box {
+  top: 334px;
+  text-align: center;
+}
+
   .banner--content-align-mobile-right .banner__box {
     text-align: right;
   }
