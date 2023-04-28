@@ -130,11 +130,6 @@
   }
 }
 
-.banner__hero{
-  align-items: flex-end;
-    justify-content: center;
-  bottom:432px;
-}
 
 @media screen and (max-width: 749px) {
   .banner:not(.banner--stacked) {
