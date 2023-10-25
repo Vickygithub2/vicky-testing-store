@@ -20,7 +20,7 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "shopify:\/\/collections\/frontpage",
+            "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -369,7 +369,6 @@
     },
     "a2a8b500-7901-4b7e-8f9c-82ce071531f4": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--16680068186347__a2a8b500-7901-4b7e-8f9c-82ce071531f4-167906317493f664e2-0": {
           "type": "slide",
@@ -429,6 +428,7 @@
         "template--16680068186347__a2a8b500-7901-4b7e-8f9c-82ce071531f4-167906317493f664e2-1",
         "acad6c65-5698-46cd-a16f-a3551f4ba5f3"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -441,7 +441,6 @@
     },
     "172f3e1d-494e-49fa-98c4-a5073c753f84": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--16680068186347__172f3e1d-494e-49fa-98c4-a5073c753f84-167906324017bace77-0": {
           "type": "heading",
@@ -474,6 +473,7 @@
         "template--16680068186347__172f3e1d-494e-49fa-98c4-a5073c753f84-167906324017bace77-1",
         "template--16680068186347__172f3e1d-494e-49fa-98c4-a5073c753f84-167906324017bace77-2"
       ],
+      "disabled": true,
       "settings": {
         "image_link": "",
         "image_overlay_opacity": 0,
@@ -490,7 +490,6 @@
     },
     "fc2f100b-e57e-4381-8cea-bedb57fe6138": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "template--16680068186347__fc2f100b-e57e-4381-8cea-bedb57fe6138-16790632774928b640-0": {
           "type": "video",
@@ -519,6 +518,7 @@
         "template--16680068186347__fc2f100b-e57e-4381-8cea-bedb57fe6138-16790632774928b640-1",
         "template--16680068186347__fc2f100b-e57e-4381-8cea-bedb57fe6138-16790632774928b640-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h1",
@@ -532,7 +532,6 @@
     },
     "f8122046-55c8-47a3-be83-031039a98a4e": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16680068186347__f8122046-55c8-47a3-be83-031039a98a4e-1679062388c4b0da35-0": {
           "type": "heading",
@@ -564,6 +563,7 @@
         "template--16680068186347__f8122046-55c8-47a3-be83-031039a98a4e-1679062388c4b0da35-1",
         "template--16680068186347__f8122046-55c8-47a3-be83-031039a98a4e-1679062388c4b0da35-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

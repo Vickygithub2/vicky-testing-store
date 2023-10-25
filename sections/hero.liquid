@@ -1,4 +1,4 @@
-{{ 'hero.css' | asset_url | stylesheet_tag }}
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
@@ -147,7 +147,8 @@
               <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                 <span>{{ block.settings.subtext | escape }}</span>
               </div>
-          
+            
+
 
 
             {%- when 'buttons' -%}
@@ -204,8 +205,7 @@
         "unit": "%",
         "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
         "default": 0
-      }, 
-      {
+      }, {
         "type": "select",
         "id": "image_height",
         "options": [
@@ -223,9 +223,13 @@
         "default": "medium",
         "label": "t:sections.image-banner.settings.image_height.label",
         "info": "t:sections.image-banner.settings.image_height.info"
-      }, 
-    
-      {
+      }, {
+        "type": "checkbox",
+        "id": "adapt_height_first_image",
+        "default": false,
+        "label": "t:sections.image-banner.settings.adapt_height_first_image.label",
+        "info": "t:sections.image-banner.settings.adapt_height_first_image.info"
+      }, {
         "type": "select",
         "id": "desktop_content_position",
         "options": [
@@ -242,6 +246,24 @@
         ],
         "default": "middle-center",
         "label": "t:sections.image-banner.settings.desktop_content_position.label"
+      },  
+      {
+        "type": "select",
+        "id": "desktop_content_alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "t:sections.image-banner.settings.desktop_content_alignment.options__1.label"
+          }, {
+            "value": "center",
+            "label": "t:sections.image-banner.settings.desktop_content_alignment.options__2.label"
+          }, {
+            "value": "right",
+            "label": "t:sections.image-banner.settings.desktop_content_alignment.options__3.label"
+          }
+        ],
+        "default": "center",
+        "label": "t:sections.image-banner.settings.desktop_content_alignment.label"
       }, {
         "type": "select",
         "id": "color_scheme",
@@ -289,31 +311,8 @@
         ],
         "default": "center",
         "label": "t:sections.image-banner.settings.mobile_content_alignment.label"
-      },
-          {
-            "type": "text",
-            "id": "button_label_1",
-            "default": "Button label",
-            "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
-            "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
-          },
-          {
-            "type": "url",
-            "id": "button_link_1",
-            "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
-          },
-          {
-            "type": "text",
-            "id": "button_label_2",
-            "default": "Button label",
-            "label": "Second Button Text"
-          },
-          {
-            "type": "url",
-            "id": "button_link_2",
-            "label": "Second Button Label"
-          }
-        ],
+      }
+    ],
 
     "blocks": [
       {
@@ -472,6 +471,20 @@
         ]
       }
 
+    ],
+    "presets": [
+      {
+        "name": "t:sections.image-banner.presets.name",
+        "blocks": [
+          {
+            "type": "heading"
+          }, {
+            "type": "text"
+          }, {
+            "type": "buttons"
+          }
+        ]
+      }
     ]
 
   }

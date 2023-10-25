@@ -9,11 +9,6 @@
 }
 
 @media only screen and (max-width: 749px) {
-  .banner__box {
-  top: 334px;
-  text-align: center;
-}
-
   .banner--content-align-mobile-right .banner__box {
     text-align: right;
   }
@@ -111,8 +106,6 @@
     justify-content: center;
   }
 
- 
-
   .banner__content.banner__content--middle-right {
     align-items: center;
     justify-content: flex-end;
@@ -134,7 +127,6 @@
   }
 }
 
-
 @media screen and (max-width: 749px) {
   .banner:not(.banner--stacked) {
     flex-direction: row;
@@ -151,11 +143,11 @@
 }
 
 .banner__media {
-  height: 100vh;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .banner__media-half {
@@ -395,16 +387,6 @@
     width: auto;
     max-width: 71rem;
     min-width: 45rem;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .banner__box {
-    width: auto;
-    max-width: 71rem;
-    min-width: 45rem;
-    background-image: none;
-    bottom: 432px;
   }
 }
 
